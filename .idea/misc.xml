@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/elasticsearch_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/ Design_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/ Design_pattern/Strategy_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/ Design_pattern/Observer_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/ Design_pattern/Decorator_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_learn/GenericProgramming_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_learn/Annotation_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/myBatis_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_learn/Reflection_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch_learn/elasticsearch_learn_springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/webSocket_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/redis_learn/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

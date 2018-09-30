@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Annotation_learn" />
+        <module name="Decorator_pattern" />
+        <module name="Design_pattern" />
+        <module name="elasticsearch_learn" />
+        <module name="elasticsearch_learn_springboot" />
+        <module name="GenericProgramming_learn" />
+        <module name="Java_learn" />
+        <module name="learn" />
+        <module name="myBatis_learn" />
+        <module name="Observer_pattern" />
+        <module name="redis_learn" />
+        <module name="Reflection_learn" />
+        <module name="Strategy_pattern" />
+        <module name="webSocket_learn" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
