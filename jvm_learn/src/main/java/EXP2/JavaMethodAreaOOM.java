@@ -10,7 +10,7 @@ import java.util.Arrays;
 /**
  * @author LanceDai
  * @date 2019/1/12 17:01
- * @description *
+ * @description VM Args： -XX:PermSize=10M -XX:MaxPermSize=10M
  */
 public class JavaMethodAreaOOM {
     public static void main(String[] args) {
