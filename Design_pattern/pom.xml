@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Design_pattern</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
@@ -17,6 +18,7 @@
         <module>Observer_pattern</module>
         <module>Strategy_pattern</module>
         <module>Decorator_pattern</module>
+        <module>Factory_pattern</module>
     </modules>
 
 </project>

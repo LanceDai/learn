@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="386b8575-93bd-44b5-9079-93c5501d5eea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/MTrans_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/60384.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator_pattern/Decorator_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/Factory_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/ChicagoPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/ClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/NYStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/PepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory_pattern/src/main/java/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer_pattern/Observer_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_original/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_original/src/test/java/esTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/main/java/com/example/demo/bean/Pic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/main/java/com/example/demo/dao/PicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/.idea/dictionaries/60384.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP2/HeapOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP2/JavaVMStackOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP2/JavaVMStackSOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第10章/清单10-9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第11章/清单11-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第12章/清单12-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第12章/清单12-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第13章/清单13-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第13章/清单13-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第13章/清单13-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第13章/清单13-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第1章/清单1-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第2章/清单2-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第2章/清单2-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第2章/清单2-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第2章/清单2-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第2章/清单2-7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第2章/清单2-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第2章/清单2-9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第3章/清单3-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第3章/清单3-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第3章/清单3-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第3章/清单3-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第3章/清单3-7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第3章/清单3-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第3章/清单3-9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第4章/清单4-10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第4章/清单4-11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第4章/清单4-12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第4章/清单4-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第4章/清单4-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第4章/清单4-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第4章/清单4-9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第6章/清单6-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第7章/清单7-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第7章/清单7-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第7章/清单7-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第7章/清单7-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第7章/清单7-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第7章/清单7-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第7章/清单7-7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第7章/清单7-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第8章/清单8-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第9章/清单9-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第9章/清单9-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第9章/清单9-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第9章/清单9-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第9章/清单9-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第9章/清单9-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第9章/清单9-7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/resources/第9章/清单9-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_consumer/src/main/java/com/learn/utils/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_producer/src/main/java/com/learn/KafkaProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_producer/src/main/java/com/learn/bean/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_producer/src/main/java/com/learn/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_producer/src/main/java/com/learn/utils/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_producer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka_learn/kafka_producer/src/test/java/com/learn/KafkaProducerApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/DarkRoast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/HouseBlend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Soy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Soy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/StarbuzzCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/StarbuzzCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/StarbuzzCoffee/Whip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/ioDecorator/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/ioDecorator/InputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/java/ioDecorator/LowercaseInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/java/ioDecorator/LowercaseInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator_pattern/src/main/resources/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_pattern/src/main/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useFromJava/CurrentConditionsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useFromJava/CurrentConditionsDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useFromJava/DisplayElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useFromJava/DisplayElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useFromJava/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useFromJava/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useFromJava/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useFromJava/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/CurrentConditionsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/CurrentConditionsDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/DisplayElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/DisplayElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/ForecastDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/ForecastDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/StatisticDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/StatisticDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer_pattern/src/main/java/useOwn/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/Strategy_pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/Strategy_pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/MiniDuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/flyBahavior/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/flyBahavior/FlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/flyBahavior/FlyNoWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/flyBahavior/FlyNoWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/flyBahavior/FlyRocketPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/flyBahavior/FlyRocketPowered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/flyBahavior/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/flyBahavior/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/quackBahavior/MuteQuack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/quackBahavior/MuteQuack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/quackBahavior/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/quackBahavior/Quack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/quackBahavior/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/quackBahavior/QuackBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/quackBahavior/Squeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/behavior/quackBahavior/Squeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/duck/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/duck/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/duck/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/duck/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strategy_pattern/src/main/java/duck/ModelDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy_pattern/src/main/java/duck/ModelDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/AnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/AnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/Inheritable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/Inheritable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/InheritableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/InheritableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyFrameworkAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyFrameworkAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyFrameworkClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyFrameworkClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyFrameworkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyFrameworkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyMetaAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyMetaAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyTestAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/MyTestAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/UserDefineAnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Annotation_learn/src/main/java/UserDefineAnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/GenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/GenericPolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/GenericPolymorphism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/ListErr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/ListErr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/TestGenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/GenericProgramming_learn/src/main/java/TestGenericMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Java_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm_learn/jvm_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ArrayReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ArrayReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ClassInfoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ClassInfoDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/InheritsTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/InheritsTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/NewArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/NewArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/NewInstanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/NewInstanceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ReflectionBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ReflectionBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/ReflectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/SimpleFrameworkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/SimpleFrameworkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/ForNameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/ForNameDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/factory/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/factory/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/factory/StrongTypeObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/factory/StrongTypeObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/field/AssignFieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/field/AssignFieldDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/field/ChangeStringFieldValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/field/ChangeStringFieldValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/field/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/field/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/method/InvokeMainMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/method/InvokeMainMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/method/MethodPointerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/cn/edu/bit/cs/method/MethodPointerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/Reflection_learn/src/main/java/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/main/java/com/example/demo/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/main/java/com/example/demo/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/main/java/com/example/demo/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/main/java/com/example/demo/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/test/java/MainApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../elasticsearch_learn/elasticsearch_learn_springboot/src/test/java/MainApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elasticsearch_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../elasticsearch_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBatis_learn/myBatis_learn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBatis_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myBatis_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/RedisDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/RedisDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/utils/ObjectRedisSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/java/com/learn/redisDemo/utils/ObjectRedisSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/resources/templates/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/resources/templates/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis_learn/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../redis_learn/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webSocket_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webSocket_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webSocket_learn/src/main/java/com/example/webSocketDemo/WebSocketDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webSocket_learn/src/main/java/com/example/webSocketDemo/WebSocketDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webSocket_learn/src/main/java/com/example/webSocketDemo/component/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webSocket_learn/src/main/java/com/example/webSocketDemo/component/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webSocket_learn/src/main/java/com/example/webSocketDemo/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webSocket_learn/src/main/java/com/example/webSocketDemo/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webSocket_learn/src/main/java/com/example/webSocketDemo/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webSocket_learn/src/main/java/com/example/webSocketDemo/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webSocket_learn/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../webSocket_learn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webSocket_learn/src/main/resources/templates/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webSocket_learn/src/main/resources/templates/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webSocket_learn/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webSocket_learn/src/main/resources/templates/home.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/Observer_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/Strategy_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/Decorator_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Factory_pattern/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/Pizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/ChicagoStyleCheesePizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/NYPizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaTestDrive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/orderPizza.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/OrderPizza.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaShop.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/CheesePizza.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/PepperoniPizza.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/ClamPizza.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/VeggiePizza.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/SimplePizzaFactory.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/Pizza.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/NYStyleCheesePizza.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/PizzatestDrive.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaStore.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/ChicagoPizzaStore.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/NYPizzaStore.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaTestDrive.java" />
+        <option value="$PROJECT_DIR$/Factory_pattern/src/main/java/ChicagoStyleCheesePizza.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/software/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547277886840" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="PizzaTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PizzaTestDrive" />
+      <module name="Factory_pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PizzaTestDrive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="386b8575-93bd-44b5-9079-93c5501d5eea" name="Default Changelist" comment="" />
+      <created>1547266328085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547266328085</updated>
+      <workItem from="1547266330727" duration="5978000" />
+      <workItem from="1547277967994" duration="595000" />
+      <workItem from="1547280718971" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6578000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43575418" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/CheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/NYStyleCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/SimplePizzaFactory.java" />
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/PepperoniPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/ClamPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/VeggiePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/ChicagoPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/NYPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/PizzaTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_pattern/src/main/java/ChicagoStyleCheesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Factory_pattern</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
