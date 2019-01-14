@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Command_pattern/Command_pattern.iml" filepath="$PROJECT_DIR$/Command_pattern/Command_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Decorator_pattern/Decorator_pattern.iml" filepath="$PROJECT_DIR$/Decorator_pattern/Decorator_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design_pattern.iml" filepath="$PROJECT_DIR$/Design_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory_pattern/Factory_pattern.iml" filepath="$PROJECT_DIR$/Factory_pattern/Factory_pattern.iml" />

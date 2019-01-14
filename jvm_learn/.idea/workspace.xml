@@ -2,29 +2,269 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c513935-a7e4-4731-8d0e-22517621bbac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/Singleton_pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/src/main/java/Singleton_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/src/main/java/Singleton_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/src/main/java/Singleton_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/src/main/java/Singleton_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/src/main/java/Singleton_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop_learn/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop_learn/.idea/dictionaries/60384.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop_learn/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop_learn/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP2/DirectMemoryOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP3/FinalizeEscapeGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP3/ReferenceCountingGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP3/tt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/Command_pattern/Command_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/Command_pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/Command_pattern/src/main/java/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/Command_pattern/src/main/java/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/src/main/java/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/Singleton_pattern/src/main/java/Singleton_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/ducks/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/ducks/DuckAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/ducks/DuckTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/ducks/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/ducks/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/ducks/TurkeyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/ducks/TurkeyTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/ducks/WildTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/iterenum/EI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/iterenum/EnumerationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/iterenum/EnumerationIteratorTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/iterenum/IteratorEnumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/adapter/iterenum/IteratorEnumerationTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/BPMObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/BeatBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/BeatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/BeatModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/BeatModelInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/BeatObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/ControllerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/DJTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/DJView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/DJViewServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/HeartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/HeartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/HeartModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/HeartModelInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/HeartTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/jsp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/jsp/djview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/combined/djview/jsp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/CeilingFanHighCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/CeilingFanMediumCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/CeilingFanOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/Hottub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/HottubOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/HottubOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/LivingroomLightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/LivingroomLightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/StereoOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/TVOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/party/TVOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/CeilingFanOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/CeilingFanOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/GarageDoorDownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/GarageDoorUpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/Hottub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/HottubOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/HottubOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/LivingroomLightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/LivingroomLightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remote/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/Hottub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/remoteWL/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremote/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremote/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremote/GarageDoorOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremote/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremote/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremote/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremote/RemoteControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremote/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremoteWL/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremoteWL/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremoteWL/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremoteWL/RemoteControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/simpleremoteWL/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/CeilingFanHighCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/CeilingFanLowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/CeilingFanMediumCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/CeilingFanOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/DimmerLightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/DimmerLightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/RemoteControlWithUndo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/command/undo/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/ducks/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/ducks/DuckAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/ducks/DuckTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/ducks/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/ducks/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/ducks/TurkeyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/ducks/TurkeyTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/ducks/WildTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/Amplifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/CdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/DvdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/HomeTheaterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/HomeTheaterTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/PopcornPopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/TheaterLights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/facade/hometheater/Tuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/BlackOlives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/ChicagoPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/ChicagoPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/ClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Clams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Eggplant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/FreshClams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/FrozenClams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Garlic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/MarinaraSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/MozzarellaCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Mushroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/NYPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Onion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/ParmesanCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Pepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/PepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/PizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/PizzaTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/PlumTomatoSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/RedPepper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/ReggianoCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Sauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/SlicedPepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Spinach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/ThickCrustDough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/ThinCrustDough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzaaf/Veggies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/ChicagoPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/ChicagoStyleClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/ChicagoStylePepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/ChicagoStyleVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/DependentPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/NYStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/NYStyleClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/NYStylePepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/NYStyleVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzafm/PizzaTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzas/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzas/ClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzas/PepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzas/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzas/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzas/PizzaTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzas/SimplePizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/factory/pizzas/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/iterator/transition/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/GumballMachineRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/GumballMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/GumballMonitorTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumball/WinnerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/GumballMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/gumballmonitor/WinnerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/javaproxy/MatchMakingTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/javaproxy/NonOwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/javaproxy/OwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/javaproxy/PersonBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/javaproxy/PersonBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/virtualproxy/ImageComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/virtualproxy/ImageProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/proxy/virtualproxy/ImageProxyTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumball/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumball/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstate/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstate/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstate/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstate/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstate/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstate/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstate/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstatewinner/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstatewinner/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstatewinner/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstatewinner/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstatewinner/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstatewinner/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstatewinner/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_pattern/source/designpatterns/state/gumballstatewinner/WinnerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EXP3/FinalizeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EXP4/Bar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Design_pattern/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Design_pattern/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Design_pattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Design_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EXP2/JavaMethodAreaOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EXP2/JavaMethodAreaOOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EXP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EXP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EXP3/tt1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EXP4/tt1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/Hadoop_learn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/dictionaries/60384.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,10 +285,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/JavaVMStackOOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="684">
               <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
-                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +298,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/JavaVMStackSOF.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -66,8 +306,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/RuntimeConstantPoolOOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="252">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -75,26 +315,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/JavaMethodAreaOOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="396">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#542#995#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP3/FinalizeEscapeGC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-              <folding>
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1512">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EXP3/FinalizeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -102,8 +345,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/DirectMemoryOOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="123">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,36 +354,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="144">
+              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EXP3/ReferenceCountingGC.java">
+        <entry file="file://E:/Test.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="216">
+              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding>
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#0#249#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EXP3/tt1.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/第2章/清单2-3.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -164,7 +396,6 @@
         <option value="$PROJECT_DIR$/src/main/java/EXP2/JavaVMStackSOF.java" />
         <option value="$PROJECT_DIR$/src/main/java/EXP2/RuntimeConstantPoolOOM.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/EXP.java" />
         <option value="$PROJECT_DIR$/src/main/java/EXP3/tt1.java" />
         <option value="$PROJECT_DIR$/src/main/java/EXP3/tt.java" />
         <option value="$PROJECT_DIR$/src/main/java/EXP3/ReferenceCountingGC.java" />
@@ -172,6 +403,11 @@
         <option value="$PROJECT_DIR$/src/main/java/EXP2/DirectMemoryOOM.java" />
         <option value="$PROJECT_DIR$/src/main/java/EXP3/tt2.java" />
         <option value="$PROJECT_DIR$/src/main/java/EXP3/FinalizeEscapeGC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EXP3/FinalizeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EXP4/tt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EXP4/Bar.java" />
+        <option value="$USER_HOME$/AppData/Local/JetBrains/Toolbox/apps/IDEA-U/ch-0/183.5153.38.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/java/EXP.java" />
       </list>
     </option>
   </component>
@@ -236,6 +472,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="EXP3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jvm_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EXP4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -245,7 +489,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547361282196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547453879888" />
     <property name="last_opened_file_path" value="D:/JavaWorkSpace" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -256,6 +500,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="EXP4" />
       <recent name="EXP3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -275,7 +520,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FinalizeEscapeGC">
+  <component name="RunManager" selected="Application.Bar">
+    <configuration name="Bar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EXP4.Bar" />
+      <module name="jvm_learn" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -Xcomp -XX:CompileCommand=dontinline,*Bar.sum -XX:CompileCommand=compileonly,*Bar.sum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EXP4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DirectMemoryOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EXP2.DirectMemoryOOM" />
       <module name="jvm_learn" />
@@ -290,21 +549,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EXP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EXP" />
-      <module name="jvm_learn" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EXP3.FinalizeEscapeGC" />
       <module name="jvm_learn" />
       <option name="VM_PARAMETERS" value="-verbose:gc -XX:+PrintGCDetails -XX:+PrintCommandLineFlags" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EXP3.*" />
+          <option name="PATTERN" value="EXP4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalizeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EXP3.FinalizeTest" />
+      <module name="jvm_learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EXP4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,21 +615,7 @@
       <option name="VM_PARAMETERS" value="-verbose:gc -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EXP3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RuntimeConstantPoolOOM (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EXP2.RuntimeConstantPoolOOM" />
-      <module name="jvm_learn" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EXP2.*" />
+          <option name="PATTERN" value="EXP4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,19 +649,19 @@
       <item itemvalue="Application.JavaVMStackSOF" />
       <item itemvalue="Application.JavaVMStackOOM" />
       <item itemvalue="Application.JavaMethodAreaOOM" />
-      <item itemvalue="Application.RuntimeConstantPoolOOM (1)" />
-      <item itemvalue="Application.EXP" />
       <item itemvalue="Application.ReferenceCountingGC" />
       <item itemvalue="Application.DirectMemoryOOM" />
       <item itemvalue="Application.FinalizeEscapeGC" />
+      <item itemvalue="Application.FinalizeTest" />
+      <item itemvalue="Application.Bar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bar" />
+        <item itemvalue="Application.FinalizeTest" />
         <item itemvalue="Application.FinalizeEscapeGC" />
         <item itemvalue="Application.DirectMemoryOOM" />
         <item itemvalue="Application.ReferenceCountingGC" />
-        <item itemvalue="Application.EXP" />
-        <item itemvalue="Application.RuntimeConstantPoolOOM (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -430,17 +681,19 @@
       <workItem from="1547280969796" duration="5169000" />
       <workItem from="1547341940551" duration="19000" />
       <workItem from="1547349137511" duration="1357000" />
-      <workItem from="1547351163203" duration="5184000" />
+      <workItem from="1547351163203" duration="8914000" />
+      <workItem from="1547449190333" duration="2494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15414000" />
+    <option name="totallyTimeSpent" value="21638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2386059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -449,7 +702,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.7178771" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.6424581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,23 +755,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EXP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EXP3/tt1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/第2章/清单2-3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EXP3/ReferenceCountingGC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#720#721#0" expanded="true" />
             <element signature="e#744#745#0" expanded="true" />
@@ -526,60 +769,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/JavaVMStackSOF.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EXP4/tt1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="40">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EXP4/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/JavaVMStackOOM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="684">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
-            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/DirectMemoryOOM.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/JavaVMStackSOF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/RuntimeConstantPoolOOM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="252">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/JavaMethodAreaOOM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="396">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#542#995#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EXP3/FinalizeEscapeGC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="1512">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EXP3/FinalizeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Toolbox/apps/IDEA-U/ch-0/183.5153.38.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#0#249#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EXP2/DirectMemoryOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EXP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>

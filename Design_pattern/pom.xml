@@ -15,6 +15,7 @@
         <module>Decorator_pattern</module>
         <module>Factory_pattern</module>
         <module>Singleton_pattern</module>
+        <module>Command_pattern</module>
     </modules>
 
 </project>
