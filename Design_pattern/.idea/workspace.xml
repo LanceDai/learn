@@ -2,269 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386b8575-93bd-44b5-9079-93c5501d5eea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Command_pattern/Command_pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Command_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Command_pattern/src/main/java/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Command_pattern/src/main/java/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton_pattern/src/main/java/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton_pattern/src/main/java/Singleton_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/ducks/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/ducks/DuckAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/ducks/DuckTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/ducks/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/ducks/Turkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/ducks/TurkeyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/ducks/TurkeyTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/ducks/WildTurkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/iterenum/EI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/iterenum/EnumerationIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/iterenum/EnumerationIteratorTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/iterenum/IteratorEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/adapter/iterenum/IteratorEnumerationTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/BPMObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/BeatBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/BeatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/BeatModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/BeatModelInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/BeatObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/ControllerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/DJTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/DJView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/DJViewServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/HeartAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/HeartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/HeartModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/HeartModelInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/HeartTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/jsp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/jsp/djview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/combined/djview/jsp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/CeilingFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/CeilingFanHighCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/CeilingFanMediumCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/CeilingFanOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/Hottub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/HottubOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/HottubOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/LivingroomLightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/LivingroomLightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/MacroCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/RemoteLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/StereoOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/StereoOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/StereoOnWithCDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/TVOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/party/TVOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/CeilingFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/CeilingFanOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/CeilingFanOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/GarageDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/GarageDoorDownCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/GarageDoorUpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/Hottub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/HottubOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/HottubOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/LivingroomLightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/LivingroomLightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/RemoteLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/StereoOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/StereoOnWithCDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remote/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/CeilingFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/GarageDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/Hottub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/RemoteLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/remoteWL/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremote/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremote/GarageDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremote/GarageDoorOpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremote/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremote/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremote/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremote/RemoteControlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremote/SimpleRemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremoteWL/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremoteWL/GarageDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremoteWL/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremoteWL/RemoteControlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/simpleremoteWL/SimpleRemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/CeilingFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/CeilingFanHighCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/CeilingFanLowCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/CeilingFanMediumCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/CeilingFanOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/DimmerLightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/DimmerLightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/RemoteControlWithUndo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/command/undo/RemoteLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/ducks/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/ducks/DuckAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/ducks/DuckTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/ducks/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/ducks/Turkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/ducks/TurkeyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/ducks/TurkeyTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/ducks/WildTurkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/Amplifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/CdPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/DvdPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/HomeTheaterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/HomeTheaterTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/PopcornPopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/TheaterLights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/facade/hometheater/Tuner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/BlackOlives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/ChicagoPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/ClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Clams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Dough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Eggplant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/FreshClams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/FrozenClams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Garlic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/MarinaraSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/MozzarellaCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Onion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/ParmesanCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Pepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/PepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/PizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/PizzaTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/PlumTomatoSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/RedPepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/ReggianoCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/SlicedPepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Spinach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/ThickCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/ThinCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/VeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzaaf/Veggies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/ChicagoStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/ChicagoStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/ChicagoStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/DependentPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/NYStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/NYStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/NYStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzafm/PizzaTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzas/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzas/ClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzas/PepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzas/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzas/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzas/PizzaTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzas/SimplePizzaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/factory/pizzas/VeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/iterator/transition/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/GumballMachineRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/GumballMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/GumballMonitorTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumball/WinnerState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/GumballMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/gumballmonitor/WinnerState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/javaproxy/MatchMakingTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/javaproxy/NonOwnerInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/javaproxy/OwnerInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/javaproxy/PersonBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/javaproxy/PersonBeanImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/virtualproxy/ImageComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/virtualproxy/ImageProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/proxy/virtualproxy/ImageProxyTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumball/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumball/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstate/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstate/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstate/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstate/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstate/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstate/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstate/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstatewinner/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstatewinner/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstatewinner/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstatewinner/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstatewinner/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstatewinner/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstatewinner/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/designpatterns/state/gumballstatewinner/WinnerState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP3/FinalizeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP4/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvm_learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm_learn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP3/tt1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm_learn/src/main/java/EXP4/tt1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/Hadoop_learn.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/dictionaries/60384.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Observer_pattern/target/" />
     <ignored path="$PROJECT_DIR$/Strategy_pattern/target/" />
@@ -305,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Command_pattern/src/main/java/LightOnCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -373,9 +111,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -386,8 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -520,17 +258,18 @@
       <workItem from="1547448980341" duration="34000" />
       <workItem from="1547449066479" duration="717000" />
       <workItem from="1547458992942" duration="1224000" />
+      <workItem from="1547552701760" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20727000" />
+    <option name="totallyTimeSpent" value="21331000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -753,7 +492,7 @@
     <entry file="file://$PROJECT_DIR$/Command_pattern/src/main/java/LightOnCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
