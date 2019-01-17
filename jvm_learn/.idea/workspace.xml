@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c513935-a7e4-4731-8d0e-22517621bbac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/Adapter_pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/ducks/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/ducks/DuckAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/ducks/DuckTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/ducks/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/ducks/Turkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/ducks/TurkeyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/ducks/TurkeyTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/ducks/WildTurkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/iterenum/EI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/iterenum/EnumerationIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/iterenum/EnumerationIteratorTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/iterenum/IteratorEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Adapter_pattern/src/main/java/iterenum/IteratorEnumerationTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/Facade_pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/Amplifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/CdPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/DvdPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/HomeTheaterFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/HomeTheaterTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/PopcornPopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/TheaterLights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design_pattern/Facade_pattern/src/main/java/hometheater/Tuner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP7/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP7/NotInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP7/NotInitialization2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP7/NotInitialization3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EXP7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design_pattern/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design_pattern/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design_pattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_learn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_learn/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP7/NotInitialization.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#519#520#0" expanded="true" />
                 <element signature="e#569#570#0" expanded="true" />
@@ -108,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP7/ClassLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#262#988#0" expanded="true" />
@@ -131,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -153,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/EXP7/NotInitialization3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding>
                 <element signature="e#461#462#0" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
@@ -304,8 +269,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547633229798" />
-    <property name="last_opened_file_path" value="D:/JavaWorkSpace" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547693338971" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spark_learn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -500,12 +465,12 @@
       <workItem from="1547349137511" duration="1357000" />
       <workItem from="1547351163203" duration="8914000" />
       <workItem from="1547449190333" duration="2494000" />
-      <workItem from="1547622220943" duration="4313000" />
+      <workItem from="1547622220943" duration="4711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25951000" />
+    <option name="totallyTimeSpent" value="26349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
@@ -688,14 +653,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EXP7/NotInitialization3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
             <element signature="e#461#462#0" expanded="true" />
             <element signature="e#518#519#0" expanded="true" />
@@ -717,7 +682,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/EXP7/NotInitialization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#519#520#0" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
@@ -739,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/EXP7/ClassLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#262#988#0" expanded="true" />
