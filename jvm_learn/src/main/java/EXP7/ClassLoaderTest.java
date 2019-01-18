@@ -30,7 +30,6 @@ public class ClassLoaderTest {
                 }
             }
         };
-ClassLoader
         Object obj = myLoader.loadClass("EXP7.ClassLoaderTest").newInstance();
 
         System.out.println(obj.getClass());
