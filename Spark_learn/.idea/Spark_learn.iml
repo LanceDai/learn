@@ -138,7 +138,6 @@
     <orderEntry type="library" name="Maven: com.univocity:univocity-parsers:2.7.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-sketch_2.12:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-catalyst_2.12:2.4.0" level="project" />
-    <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.janino:janino:3.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.janino:commons-compiler:3.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.7" level="project" />
@@ -160,6 +159,22 @@
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: com.carrotsearch:hppc:0.7.2" level="project" />
     <orderEntry type="library" name="Maven: com.vlkan:flatbuffers:1.2.0-3f79e055" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-mllib_2.12:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-streaming_2.12:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-graphx_2.12:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.fommil.netlib:core:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.f2j:arpack_combined_all:0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-mllib-local_2.12:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scalanlp:breeze_2.12:0.13.2" level="project" />
+    <orderEntry type="library" name="Maven: org.scalanlp:breeze-macros_2.12:0.13.2" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.github.rwl:jtransforms:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.spire-math:spire_2.12:0.13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.spire-math:spire-macros_2.12:0.13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.typelevel:machinist_2.12:0.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.chuusai:shapeless_2.12:2.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.typelevel:macro-compat_2.12:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
   </component>
 </module>

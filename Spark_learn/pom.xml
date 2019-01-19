@@ -33,6 +33,12 @@
             <artifactId>spark-sql_2.12</artifactId>
             <version>2.4.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_2.12</artifactId>
+            <version>2.4.0</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/com.thoughtworks.paranamer/paranamer -->
         <dependency>
             <groupId>com.thoughtworks.paranamer</groupId>
