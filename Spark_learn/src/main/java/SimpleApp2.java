@@ -1,8 +1,8 @@
 /* SimpleApp.java */
 
 import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.function.FilterFunction;
+import org.apache.spark.api.java.function.Function;
 import org.apache.spark.api.java.function.MapFunction;
 import org.apache.spark.mllib.evaluation.BinaryClassificationMetrics;
 import org.apache.spark.mllib.linalg.Vector;
@@ -11,6 +11,7 @@ import org.apache.spark.mllib.regression.LabeledPoint;
 import org.apache.spark.mllib.tree.DecisionTree;
 import org.apache.spark.mllib.tree.model.DecisionTreeModel;
 import org.apache.spark.sql.*;
+import scala.Tuple2;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -84,7 +85,7 @@ public class SimpleApp2 {
             Vector vector = labeledPoint.features();
             return model.predict(vector);
         }, Encoders.DOUBLE());
-        JavaPairRDD<Double, Double> predictReal = predict.javaRDD().zip(validationData.map(new MapFunction<LabeledPoint, Double>() {
+        var predictReal = predict.javaRDD().zip(validationData.map(new MapFunction<LabeledPoint, Double>() {
             @Override
             public Double call(LabeledPoint labeledPoint) throws Exception {
 
@@ -92,7 +93,10 @@ public class SimpleApp2 {
             }
         }, Encoders.DOUBLE()).javaRDD());
         System.out.println("predict_real.take(5) = " + predictReal.take(5));
-        BinaryClassificationMetrics binaryClassificationMetrics = new BinaryClassificationMetrics();
+        var newPredictReal = predictReal.map((Function<Tuple2<Double, Double>, Tuple2<Object, Object>>) doubleDoubleTuple2 -> Tuple2.apply(doubleDoubleTuple2._1, doubleDoubleTuple2._2));
+        BinaryClassificationMetrics binaryClassificationMetrics = new BinaryClassificationMetrics(newPredictReal.rdd());
+        System.out.println("binaryClassificationMetrics.areaUnderROC() = " + binaryClassificationMetrics.areaUnderROC());
+        System.out.println("model.toDebugString() = " + model.toDebugString());
         spark.stop();
     }
 
