@@ -2,7 +2,6 @@ package EXP2;
 
 /**
  * VM Args：-Xss128k
- * 直接运行会死机、死机、死机
  * @author zzm
  */
 public class JavaVMStackSOF {
