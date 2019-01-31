@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03972188-313f-4e6f-a03c-b498ec6873b9" name="Default Changelist" comment="" />
+    <list default="true" id="03972188-313f-4e6f-a03c-b498ec6873b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DecisionTreeByVarianceRegression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RandomForestVarianceRegression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/FeatureExtractionAndTransformation/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/FeatureExtractionAndTransformation/aWord2vec.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/MatrixRow.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/MatrixRow33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/StatisticsCorrLearningx.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/StatisticsCorrLearningy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/StatisticsCorrLearningz.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/StratifiedSampling.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/sample_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/sample_libsvm_data_simple.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/basic/stats.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/classification/IsotonicRegression2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/classification/dt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/classification/sample_isotonic_regression_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/classification/sample_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/classification/sample_naive_bayes_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/classification/sample_naive_bayes_data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kmeans/Wholesale customers data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kmeans/WholesaleCustomersData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kmeans/WholesaleCustomersDataTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kmeans/WholesaleCustomersDataTest1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kmeans/WholesaleCustomersDataTrain1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kmeans/testingDic/kmeans_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kmeans/treaningDic/kmeans_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/kmeans_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/als/sample_movielens_movies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/als/sample_movielens_ratings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/als/test.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/gmm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/kmeans_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/lr-data/random.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/lr_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/pagerank_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/pic_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/ridge-data/lpsa.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_binary_classification_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_fpgrowth.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_isotonic_regression_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_lda_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_linear_regression_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_movielens_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_multiclass_classification_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_naive_bayes_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_svm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/mllibFromSpark/sample_tree_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/personalRatings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/regression/linearRegression3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/regression/logisticRegression1.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/regression/sample_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/regression/sample_linear_regression_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ridge-data/lpsa.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ridge-data/lpsa2.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/sample_movielens_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/test.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/test2.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spark_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spark_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,17 +93,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="108">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4069">
-              <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
+            <state relative-caret-position="576">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6032#6033#0" expanded="true" />
@@ -41,28 +114,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/text.text">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="45972">
-              <caret column="1277357" selection-start-column="1277357" selection-end-column="1277357" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp3.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar!/scala/runtime/BoxedUnit.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RandomForestVarianceRegression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/train.tsv">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="110" column="70" lean-forward="true" selection-start-line="110" selection-start-column="3" selection-end-line="110" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="220" column="43" selection-start-line="220" selection-start-column="43" selection-end-line="220" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -80,6 +186,9 @@
     <findStrings>
       <find>##</find>
       <find>categoriesMap.size()</find>
+      <find>randomSplit</find>
+      <find>take</find>
+      <find>mean</find>
     </findStrings>
     <replaceStrings>
       <replace>//</replace>
@@ -104,8 +213,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/SimpleApp3.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SimpleApp2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/DecisionTreeByVarianceRegression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RandomForestVarianceRegression.java" />
       </list>
     </option>
   </component>
@@ -122,10 +233,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -179,6 +289,15 @@
             </path>
             <path>
               <item name="Spark_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spark_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -190,7 +309,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547965039646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548924626727" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -205,6 +324,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\JavaWorkSpace\learn\Spark_learn\src\main\resources\data" />
       <recent name="D:\WorkSpace\JavaWorkSpace\learn\Spark_learn\src\main\resources" />
     </key>
   </component>
@@ -220,10 +340,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleApp2">
-    <configuration name="SimpleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleApp" />
+  <component name="RunManager" selected="Application.RandomForestVarianceRegression">
+    <configuration name="DecisionTreeByVarianceRegression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecisionTreeByVarianceRegression" />
       <module name="Spark_learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomForestVarianceRegression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomForestVarianceRegression" />
+      <module name="Spark_learn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -252,14 +381,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TopologyTest" />
-      <module name="Spark_learn" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -282,19 +403,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleApp" />
-      <item itemvalue="Application.TopologyTest" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.SimpleApp2" />
       <item itemvalue="Application.SimpleApp3" />
+      <item itemvalue="Application.DecisionTreeByVarianceRegression" />
+      <item itemvalue="Application.RandomForestVarianceRegression" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomForestVarianceRegression" />
+        <item itemvalue="Application.DecisionTreeByVarianceRegression" />
         <item itemvalue="Application.SimpleApp2" />
         <item itemvalue="Application.SimpleApp3" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SimpleApp" />
-        <item itemvalue="Application.TopologyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -320,18 +441,18 @@
       <workItem from="1547862702317" duration="29353000" />
       <workItem from="1548295771634" duration="591000" />
       <workItem from="1548296944881" duration="596000" />
-      <workItem from="1548640743827" duration="2473000" />
+      <workItem from="1548640743827" duration="13306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50012000" />
+    <option name="totallyTimeSpent" value="60845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1971831" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4764543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -340,7 +461,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43435755" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1773743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,13 +496,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.12/2.4.0/spark-core_2.12-2.4.0.jar!/org/apache/spark/api/java/JavaSparkContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="143" column="147" selection-start-line="143" selection-start-column="147" selection-end-line="143" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.12/2.4.0/spark-core_2.12-2.4.0.jar!/org/apache/spark/api/java/function/FilterFunction.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -393,16 +507,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/OutBolt.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/OutBolt2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/TopologyTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/workers-artifacts/topo-1-1547789036/1024/worker.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -505,27 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/regression/LabeledPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/tree/DecisionTree.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/ml/feature/LabeledPoint.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -547,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/train.tsv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state>
@@ -568,14 +644,195 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/basic/a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/basic/sample_libsvm_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/basic/MatrixRow33.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/basic/MatrixRow.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar!/scala/reflect/ClassTag.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+          <folding>
+            <element signature="e#9149#9150#0" expanded="true" />
+            <element signature="e#9198#9199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar!/scala/collection/JavaConverters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="143" column="60" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/tree/DecisionTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="93" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.12/2.4.0/spark-core_2.12-2.4.0.jar!/org/apache/spark/rdd/RDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar!/scala/collection/Map.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="4313" column="22" lean-forward="true" selection-start-line="4313" selection-start-column="22" selection-end-line="4313" selection-end-column="22" />
+          <folding>
+            <element signature="e#200691#200692#0" expanded="true" />
+            <element signature="e#200732#200733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="220" column="43" selection-start-line="220" selection-start-column="43" selection-end-line="220" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4069">
-          <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
+        <state relative-caret-position="576">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6032#6033#0" expanded="true" />
             <element signature="e#6111#6112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/regression/LabeledPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/io/NotSerializableException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="110" column="70" lean-forward="true" selection-start-line="110" selection-start-column="3" selection-end-line="110" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/classification/sample_libsvm_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/regression/sample_libsvm_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2958" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DecisionTreeByVarianceRegression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#DecisionTreeByVarianceRegression#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar!/scala/runtime/BoxedUnit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RandomForestVarianceRegression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
