@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03972188-313f-4e6f-a03c-b498ec6873b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/SparkStreaming_learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/dictionaries/60384.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_0_8_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_8_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_2_11_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/SparkStreaming_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/SparkStreaming_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="20" column="12" selection-start-line="6" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="440">
+              <caret line="46" column="21" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -41,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RandomForestVarianceRegression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="792">
               <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -149,8 +155,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -161,7 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,7 +335,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,17 +475,18 @@
       <workItem from="1548296944881" duration="596000" />
       <workItem from="1548640743827" duration="13770000" />
       <workItem from="1549156977543" duration="829000" />
+      <workItem from="1549501287882" duration="929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62138000" />
+    <option name="totallyTimeSpent" value="63067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33936957" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16431925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -807,6 +814,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/util/MLUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2511">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/JavaPackage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RandomForestVarianceRegression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SimpleApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -835,46 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6984">
           <caret line="220" column="43" selection-start-line="220" selection-start-column="43" selection-end-line="220" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RandomForestVarianceRegression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/util/MLUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2511">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/package.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.12/2.4.0/spark-mllib_2.12-2.4.0.jar!/org/apache/spark/mllib/JavaPackage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="20" column="12" selection-start-line="6" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
