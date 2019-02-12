@@ -24,7 +24,7 @@ public class SparkStreamingKafkaInit {
     public static void main(String[] args) {
 
         var conf = new SparkConf().setAppName("SparkStreamingKafkaSimpleApp").setMaster("local[4]");
-        var ssc = new StreamingContext(conf, Duration.apply(1L));
+        var ssc = new StreamingContext(conf, Duration.apply(5L));
         var streamingContext = new JavaStreamingContext(ssc);
 
         Map<String, Object> kafkaParams = new HashMap<>();

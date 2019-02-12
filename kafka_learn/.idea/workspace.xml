@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b64f76cb-b457-4333-9c96-f21efc735a61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_netty_netty_all_4_0_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__mx4j_mx4j_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__net_iharder_base64_2_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_51.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_jpmml_pmml_model_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_jpmml_pmml_schema_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_scalap_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkStreaming_learn/src/main/java/SparkStreamingKafkaML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/60384.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_consumer/kafka_consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_producer/kafka_producer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/SparkStreaming_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/SparkStreaming_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_chuusai_shapeless_2_12_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_chuusai_shapeless_2_11_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_4_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_6_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_twitter_chill_2_12_0_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_twitter_chill_java_0_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_twitter_chill_java_0_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_univocity_univocity_parsers_2_7_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_univocity_univocity_parsers_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__com_vlkan_flatbuffers_1_2_0_3f79e055.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_airlift_aircompressor_0_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__io_netty_netty_all_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_arrow_arrow_format_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_arrow_arrow_memory_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_arrow_arrow_vector_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_avro_avro_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_orc_orc_core_nohive_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_orc_orc_mapreduce_nohive_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_orc_orc_shims_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_core_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_mllib_local_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_mllib_local_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_sql_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_tags_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_12_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_11_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_xbean_xbean_asm6_shaded_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_json4s_json4s_ast_2_12_3_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_json4s_json4s_core_2_12_3_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_json4s_json4s_jackson_2_12_3_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_json4s_json4s_scalap_2_12_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_lz4_lz4_java_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_12_1_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scalanlp_breeze_2_12_0_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scalanlp_breeze_2_11_0_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_12_0_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_11_0_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_spire_math_spire_2_12_0_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_spire_math_spire_2_11_0_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_spire_math_spire_macros_2_12_0_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_spire_math_spire_macros_2_11_0_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_typelevel_machinist_2_12_0_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_typelevel_machinist_2_11_0_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_typelevel_macro_compat_2_12_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_typelevel_macro_compat_2_11_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkStreaming_learn/src/main/java/SparkStreamingKafkaInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkStreaming_learn/src/main/java/SparkStreamingKafkaInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/utils/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/utils/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_producer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/src/test/java/com/learn/KafkaProducerApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_producer/src/test/java/com/learn/KafkaProducerApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_producer/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/kafka_producer/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/kafka_consumer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/utils/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-669">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+              <folding>
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kafka_producer/src/test/java/com/learn/KafkaProducerApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="591">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/config/KafkaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-288">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka_producer/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/config/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/kafka_producer/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/utils/Producer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka_producer/src/test/java/com/learn/KafkaProducerApplicationTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/software/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549954738351" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.KafkaProducerApplicationTest.sparkStreamingTest">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerApplicationTest.sparkStreamingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka_producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learn" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.KafkaProducerApplicationTest" />
+      <option name="METHOD_NAME" value="sparkStreamingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.KafkaConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka_producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.KafkaProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KafkaProducerApplicationTest.sparkStreamingTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b64f76cb-b457-4333-9c96-f21efc735a61" name="Default Changelist" comment="" />
+      <created>1549952404011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549952404011</updated>
+      <workItem from="1549952411974" duration="2153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="KafkaProducerApplicationTest_sparkStreamingTest - 2019.02.12 at 14h 48m 26s.xml">
+      <configuration name="KafkaProducerApplicationTest.sparkStreamingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KafkaProducerApplicationTest_sparkStreamingTest - 2019.02.12 at 14h 52m 52s.xml">
+      <configuration name="KafkaProducerApplicationTest.sparkStreamingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KafkaProducerApplicationTest_sparkStreamingTest - 2019.02.12 at 14h 54m 52s.xml">
+      <configuration name="KafkaProducerApplicationTest.sparkStreamingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KafkaProducerApplicationTest_sparkStreamingTest - 2019.02.12 at 14h 57m 42s.xml">
+      <configuration name="KafkaProducerApplicationTest.sparkStreamingTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2153000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.515906" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.32960895" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Run with VisualVM" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="JProfiler" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Debug with VisualVM" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.75139666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Jms Messenger" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kafka_producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_consumer/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/config/KafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_producer/src/main/java/com/learn/utils/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_producer/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka_producer/src/test/java/com/learn/KafkaProducerApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
