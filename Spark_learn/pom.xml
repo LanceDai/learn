@@ -24,20 +24,20 @@
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.12</artifactId>
-            <version>2.4.0</version>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.2.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-sql_2.12</artifactId>
-            <version>2.4.0</version>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.2.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-mllib_2.12</artifactId>
-            <version>2.4.0</version>
+            <artifactId>spark-mllib_2.11</artifactId>
+            <version>2.2.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.thoughtworks.paranamer/paranamer -->
         <dependency>
@@ -56,6 +56,12 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
     </dependencies>
 </project>
