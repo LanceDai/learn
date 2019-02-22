@@ -17,5 +17,10 @@ public class StartSpring {
         MessageService messageService = context.getBean(MessageService.class);
         // 这句将输出: hello world
         System.out.println(messageService.getMessage());
+        float a = 1.0f;
+        float b = 1.0f;
+        float c= b;
+        System.out.println(c == a);
+
     }
 }
