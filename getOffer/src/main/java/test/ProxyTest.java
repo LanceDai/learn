@@ -63,6 +63,7 @@ public class ProxyTest {
                             Object returnValue = method.invoke(target, args);
                             System.out.println("提交事务2");
                             return returnValue;
+                        }
                     }
             );
         }
