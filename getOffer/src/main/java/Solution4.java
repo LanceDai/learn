@@ -3,12 +3,12 @@
 
 import java.util.ArrayDeque;
 
-class TreeNode {
+class TreeNode_1 {
     int val;
-    TreeNode left;
-    TreeNode right;
+    TreeNode_1 left;
+    TreeNode_1 right;
 
-    TreeNode(int x) {
+    TreeNode_1(int x) {
         val = x;
     }
 }
@@ -20,12 +20,12 @@ public class Solution4 {
         showTree(new Solution4().reConstructBinaryTree(pre, in));
     }
 
-    public static void showTree(TreeNode root) {
-        ArrayDeque<TreeNode> queue = new ArrayDeque<TreeNode>();
+    public static void showTree(TreeNode_1 root) {
+        ArrayDeque<TreeNode_1> queue = new ArrayDeque<TreeNode_1>();
         queue.push(root);
         System.out.println(root.val);
         while (!queue.isEmpty()) {
-            TreeNode tmp = queue.getFirst();
+            TreeNode_1 tmp = queue.getFirst();
             queue.pop();
             if (tmp.left != null) {
                 System.out.print(tmp.left.val);
@@ -44,9 +44,9 @@ public class Solution4 {
         }
     }
 
-    public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
+    public TreeNode_1 reConstructBinaryTree(int[] pre, int[] in) {
         if (pre.length == 0) return null;
-        TreeNode root = new TreeNode(pre[0]);
+        TreeNode_1 root = new TreeNode_1(pre[0]);
         int index = 0;
         for (int i = 0; i < in.length; ++i) {
             if (pre[0] == in[i]) {

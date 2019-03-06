@@ -1,27 +1,34 @@
 import java.util.ArrayList;
-import java.util.Stack;
+import java.util.BitSet;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class Solution {
-    public boolean IsPopOrder(int[] pushA, int[] popA) {
-        Stack<Integer> stack = new Stack<Integer>();
-        for (int popIndex = 0, pushIndex = 0; popIndex < popA.length; popIndex++) {
-            while ((stack.isEmpty() || stack.peek() != popA[popIndex]) && pushIndex < pushA.length) {
-                stack.push(pushA[pushIndex++]);
-            }
-            if (pushIndex > pushA.length) {
-                return false;
-            }
-        }
-        return true;
-    }
 
     public static void main(String[] args) {
-        System.out.println(
-                new Solution().IsPopOrder(
-                        new int[]{1, 2, 3, 4, 5},
-                        new int[]{4, 3, 5, 1, 2}));
+        int[] nums = new int[]{-2, 1, -2, 3, 10, -4, 7, 2, 5, -2};
+        int start, end, sum, ansStart, ansEnd, ans;
+        start = sum = ansEnd = ansStart = 0;
+        ans = -1;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            while (sum < 0) {
+                sum -= nums[start];
+                start++;
+            }
+            end = i;
+            if(sum > ans){
+                ansStart = start;
+                ansEnd = end;
+                ans = sum;
+            }
+        }
+        for (int i = ansStart; i <= ansEnd ; i++) {
+            System.out.print(nums[i] + " --- ");
+        }
+//        LinkedBlockingQueue
+        ArrayBlockingQueue
     }
-
-//    1,2,3,4,5 4,5,3,2,1
-//            4,3,5,1,2
 }
+
+// -2,1,-2,3,10,-4,7,2,5,-2
