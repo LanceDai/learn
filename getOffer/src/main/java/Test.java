@@ -1,29 +1,36 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.util.List;
-import java.util.Random;
-import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.ThreadPoolExecutor;
 
-public class Test {
+class Test {
     public static void main(String[] args) {
-        Integer a = 1;
-        Integer b = 2;
-        Integer c = 3;
-        Integer d = 3;
-        Integer e = 321;
-        Integer f = 321;
-        Long g = 3L;
-        Long h = 2L;
-
-        System.out.println(c == d);
-        System.out.println(e == f);
-        System.out.println(c == (a + b));
-        System.out.println(c.equals(a + b));
-        System.out.println(g == (a + b));
-        System.out.println(g.equals(a + b));
-        System.out.println(g.equals(a + h));
+        System.out.println(new B().getValue());
+    }
+    static class A {
+        protected int value;
+        public A (int v) {
+            setValue(v);
+        }
+        public void setValue(int value) {
+            this.value= value;
+        }
+        public int getValue() {
+            try {
+                value ++;
+                return value;
+            } finally {
+                this.setValue(value);
+                System.out.println(value);
+                ConcurrentHashMap
+            }
+        }
+    }
+    static class B extends A {
+        public B () {
+            super(5);
+            setValue(getValue()- 3);
+        }
+        @Override
+        public void setValue(int value) {
+            super.setValue(2 * value);
+        }
     }
 }

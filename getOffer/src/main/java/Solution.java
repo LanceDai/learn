@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.BitSet;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.*;
 
 public class Solution {
 
@@ -27,7 +26,11 @@ public class Solution {
             System.out.print(nums[i] + " --- ");
         }
 //        LinkedBlockingQueue
-        ArrayBlockingQueue
+        ArrayBlockingQueue arrayBlockingQueue;
+//        new ThreadPoolExecutor();
+//        ThreadPoolExecutor.CallerRunsPolicy
+//        ThreadFactory
+
     }
 }
 
