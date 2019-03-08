@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.BitSet;
+import java.util.HashMap;
 import java.util.concurrent.*;
 
 public class Solution {
@@ -30,7 +31,9 @@ public class Solution {
 //        new ThreadPoolExecutor();
 //        ThreadPoolExecutor.CallerRunsPolicy
 //        ThreadFactory
-
+  ConcurrentHashMap concurrentHashMap;
+        HashMap hashMap;
+        Integer
     }
 }
 

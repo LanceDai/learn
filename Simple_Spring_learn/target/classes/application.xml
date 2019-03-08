@@ -6,6 +6,7 @@
 
 
     <bean id="messageService" class="service.impl.MessageServiceImpl"/>
+    <bean id="annotationBean" class="com.learn.simple.spring.bean.AnnotationBean" init-method="start"/>
     <context:component-scan base-package="com.learn.simple.spring"/>
     <context:annotation-config/>
 </beans>
