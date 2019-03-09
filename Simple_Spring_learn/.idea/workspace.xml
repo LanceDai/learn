@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c2032e7-1ee6-469a-8b80-c11713fe7049" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Design_pattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_pattern/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/simple/spring/StartSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/spring/StartSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/simple/spring/bean/AnnotationBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/spring/bean/AnnotationBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/list" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/list" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/list" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../getOffer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../getOffer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../getOffer/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../getOffer/src/main/java/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../getOffer/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../getOffer/src/main/java/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -291,8 +283,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552043716692" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552099618811" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Nio_learn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -375,16 +367,15 @@
       <updated>1550641838671</updated>
       <workItem from="1550641840413" duration="4699000" />
       <workItem from="1551593898877" duration="76000" />
-      <workItem from="1552038460444" duration="4913000" />
+      <workItem from="1552038460444" duration="4917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9688000" />
+    <option name="totallyTimeSpent" value="9692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.19382964" />
@@ -397,7 +388,7 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55586594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55586594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

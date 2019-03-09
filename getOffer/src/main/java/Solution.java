@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.BitSet;
-import java.util.HashMap;
+import java.util.*;
 import java.util.concurrent.*;
 
 public class Solution {
@@ -33,7 +31,12 @@ public class Solution {
 //        ThreadFactory
   ConcurrentHashMap concurrentHashMap;
         HashMap hashMap;
-        Integer
+        Integer integer;
+        ArrayList arrayList;
+        LinkedList linkedList;
+        Vector vector;
+        Hashtable hashtable;
+        PriorityQueue priorityQueue;
     }
 }
 
