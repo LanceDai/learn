@@ -80,10 +80,13 @@ public class Server {
     class ReadHandler implements CompletionHandler<Integer, AsynchronousSocketChannel> {
         @Override
         public void completed(Integer result, AsynchronousSocketChannel attachment) {
-            if (result < 0) {// 客户端关闭了连接
+            if (result < 0) {
+                // 客户端关闭了连接
                 Server.close(attachment);
             } else if (result == 0) {
-                System.out.println("空数据"); // 处理空数据
+                // 处理空数据
+                System.out.println("空数据");
+                Server.close(attachment);
             } else {
                 // 读取请求，处理客户端发送的数据
                 readBuffer.flip();
