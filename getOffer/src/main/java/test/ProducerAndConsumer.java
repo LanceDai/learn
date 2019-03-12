@@ -2,42 +2,38 @@ package test;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class ProducerAndConsumer {
-    private static final Queue<Integer> queue = new ArrayDeque<Integer>();
-    private static final int size = 10;
-    private static final AtomicInteger count = new AtomicInteger(0);
+    private static final Queue<Integer> QUEUE = new ArrayDeque<Integer>();
+    private static final int SIZE = 1;
+    private static final AtomicInteger COUNT = new AtomicInteger(0);
+    private static final int TIMES = 100;
 
     public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 1; i++) {
             Thread tmp = new Thread(new Producer(), "producer-" + i);
             tmp.start();
-//            tmp.join();
         }
         for (int i = 0; i < 1; i++) {
             Thread tmp = new Thread(new Consumer(), "consumer-" + i);
             tmp.start();
-//            tmp.join();
         }
     }
 
     static class Producer implements Runnable {
         @Override
         public void run() {
-            while (count.get() < 100) {
-                synchronized (queue) {
+            while (COUNT.get() < TIMES) {
+                synchronized (QUEUE) {
                     try {
-                        if (queue.size() >= size) {
+                        if (QUEUE.size() >= SIZE) {
                             System.out.println(Thread.currentThread().getName() + " is wait");
-                            queue.wait();
+                            QUEUE.wait();
                         }
-                        queue.add(count.getAndIncrement());
-                        System.out.println(Thread.currentThread().getName() + " produce " + count.get());
-                        queue.notify();
+                        System.out.println(Thread.currentThread().getName() + " produce " + COUNT.get());
+                        QUEUE.add(COUNT.getAndIncrement());
+                        QUEUE.notify();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -50,15 +46,15 @@ public class ProducerAndConsumer {
     static class Consumer implements Runnable {
         @Override
         public void run() {
-            while (!queue.isEmpty() || count.get() < 100) {
-                synchronized (queue) {
+            while (!QUEUE.isEmpty() || COUNT.get() < TIMES) {
+                synchronized (QUEUE) {
                     try {
-                        if (queue.isEmpty()) {
+                        if (QUEUE.isEmpty()) {
                             System.out.println(Thread.currentThread().getName() + " is wait");
-                            queue.wait();
+                            QUEUE.wait();
                         }
-                        System.out.println(Thread.currentThread().getName() + " consume " + queue.remove());
-                        queue.notify();
+                        System.out.println(Thread.currentThread().getName() + " consume " + QUEUE.remove());
+                        QUEUE.notify();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

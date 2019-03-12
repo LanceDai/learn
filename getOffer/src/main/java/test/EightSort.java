@@ -1,8 +1,9 @@
 package test;
 
-import com.sun.org.apache.bcel.internal.generic.Select;
-
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * @author LanceDai
@@ -14,7 +15,7 @@ public class EightSort {
 
     //插入排序
     //直接插入排序
-    private static <T extends Comparable> T[] straightInsertionSort(T[] data) {
+    private static <T extends Comparable<? super T>> T[] straightInsertionSort(T[] data, int start, int end) {
         for (int i = 1; i < data.length; ++i) {
             T tmp = data[i];
             int j;
@@ -27,7 +28,7 @@ public class EightSort {
     }
 
     //希尔排序
-    private static <T extends Comparable> T[] shellSort(T[] data) {
+    private static <T extends Comparable<? super T>> T[] shellSort(T[] data, int start, int end) {
         for (int step = data.length >> 1; step > 0; step >>= 1) {
             for (int i = step; i < data.length; ++i) {
                 T temp = data[i];
@@ -43,7 +44,7 @@ public class EightSort {
 
     //选择排序
     //直接选择
-    private static <T extends Comparable> T[] straightSelectSort(T[] data) {
+    private static <T extends Comparable<? super T>> T[] straightSelectSort(T[] data, int start, int end) {
         for (int i = 0; i < data.length - 1; i++) {
             for (int j = i + 1; j < data.length; j++) {
                 if (data[i].compareTo(data[j]) > 0) {
@@ -57,45 +58,45 @@ public class EightSort {
         return data;
     }
 
-    //堆排序
-    private static <T extends Comparable> T[] heapSort(T[] data) {
+    /**
+     * 堆排序
+     */
+    private static <T extends Comparable<? super T>> T[] heapSort(T[] data, int start, int end) {
         //建堆
-        heapify(data, data.length);
+        for (int i = (data.length >>> 1) - 1; i >= 0; --i) {
+            shiftDown(data, data.length, i, data[i]);
+        }
         //构建结果
         T temp;
         for (int i = 1; i < data.length; i++) {
             temp = data[0];
             data[0] = data[data.length - i];
             data[data.length - i] = temp;
-            heapify(data, data.length - i);
+            shiftDown(data, data.length - i, 0, data[0]);
         }
         return data;
     }
 
-    private static <T extends Comparable> void heapify(T[] data, int size) {
-        for (int i = (size >>> 1) - 1; i >= 0; --i) {
-            int k = i;
-            T temp = data[i];
-            while (k < (size >>> 1)) {
-                int child = (k << 1) + 1;
-                T c = data[child];
-                int right = child + 1;
-                if (right < size && c.compareTo(data[right]) < 0) {
-                    c = data[child = right];
-                }
-                if (data[i].compareTo(c) >= 0) {
-                    break;
-                }
-                data[k] = c;
-                k = child;
+    private static <T extends Comparable<? super T>> void shiftDown(T[] data, int size, int index, T x) {
+        while (index < (size >>> 1)) {
+            int child = (index << 1) + 1;
+            T c = data[child];
+            int right = child + 1;
+            if (right < size && c.compareTo(data[right]) < 0) {
+                c = data[child = right];
             }
-            data[k] = temp;
+            if (x.compareTo(c) >= 0) {
+                break;
+            }
+            data[index] = c;
+            index = child;
         }
+        data[index] = x;
     }
 
     //交换排序
     //冒泡排序
-    private static <T extends Comparable> T[] bubbleSort(T[] data) {
+    private static <T extends Comparable<? super T>> T[] bubbleSort(T[] data, int start, int end) {
         for (int i = 1; i < data.length; i++) {
             for (int j = 0; j < data.length - i; j++) {
                 if (data[j].compareTo(data[j + 1]) > 0) {
@@ -110,7 +111,7 @@ public class EightSort {
     }
 
     //快速排序
-    private static <T extends Comparable> T[] quickSort(T[] data, int start, int end) {
+    private static <T extends Comparable<? super T>> T[] quickSort(T[] data, int start, int end) {
         if (start >= end) {
             return data;
         }
@@ -141,34 +142,94 @@ public class EightSort {
     }
 
     //归并排序
-    private static <T extends Comparable> T[] margeSort(T[] data, int start, int end) {
+    private static Integer[] margeSort(Integer[] data, int start, int end) {
         if (start >= end) {
             return data;
         }
         int mid = (start + end) >> 1;
-        T[] left = margeSort(data, start, mid);
-        T[] right = margeSort(data, start, mid);
+        margeSort(data, start, mid);
+        margeSort(data, mid + 1, end);
         //合并
-        int newStart = start, newEnd = end;
-        T[] newData = data.clone();
-        while (newStart < newEnd) {
-            data[] =
+        Integer[] tempData = new Integer[data.length];
+        int i = start, j = mid + 1, cursor = start;
+        while (i <= mid || j <= end) {
+            if (i > mid) {
+                tempData[cursor] = data[j++];
+            } else if (j > end) {
+                tempData[cursor] = data[i++];
+            } else if (data[i].compareTo(data[j]) < 0) {
+                tempData[cursor] = data[i++];
+            } else {
+                tempData[cursor] = data[j++];
+            }
+            cursor++;
         }
+        System.arraycopy(tempData, start, data, start, end - start + 1);
+//        for (cursor = start; cursor <= end; ++cursor) {
+//            data[cursor] = tempData[cursor];
+//        }
+        return data;
     }
 
     //基数排序
-    public static void main(String[] args) {
-        Integer[] integers = new Integer[]{1, -1, 3, 0};
-        System.out.println(Arrays.toString(straightInsertionSort(integers.clone())));
-        System.out.println(Arrays.toString(shellSort(integers.clone())));
+    private static Integer[] basicSort(Integer[] data, int start, int end) {
+        int maxVal = -1;
+        for (int i = 0; i < data.length; i++) {
+            maxVal = Math.max(maxVal, data[i]);
+        }
+        int digitPosition = 1;
+        while (maxVal / digitPosition > 0) {
+            int[] bins = new int[data.length];
+            int[] digitCount = new int[10];
+            for (int i = 0; i < data.length; i++) {
+                digitCount[(data[i] / digitPosition) % 10]++;
+            }
 
-        System.out.println(Arrays.toString(straightSelectSort(integers.clone())));
-        System.out.println(Arrays.toString(heapSort(integers.clone())));
+            for (int i = 1; i < digitCount.length; i++) {
+                digitCount[i] += digitCount[i - 1];
+            }
+            for (int i = data.length - 1; i >= 0; --i) {
+                bins[--digitCount[(data[i] / digitPosition) % 10]] = data[i];
+            }
+            for (int i = 0; i < data.length; i++) {
+                data[i] = bins[i];
+            }
+            digitPosition *= 10;
+        }
+        return data;
+    }
 
-        System.out.println(Arrays.toString(bubbleSort(integers.clone())));
-        System.out.println(Arrays.toString(quickSort(integers.clone(), 0, integers.length - 1)));
 
+    public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
+        Random random = new Random();
+        Integer[] integers = new Integer[(random.nextInt(10) + 1) * 10000];
+        for (int i = 0; i < integers.length; i++) {
+            integers[i] = random.nextInt(100);
+            random.setSeed(random.nextLong());
+        }
+        System.out.println("integers = " + Arrays.toString(integers));
+        System.out.println("integers length = " + integers.length);
+        Integer[] rightRes = integers.clone();
+        Arrays.sort(rightRes);
+        Class c = EightSort.class;
+        Method[] methods = c.getDeclaredMethods();
+        for (Method method : methods) {
+            String methodName = method.getName();
+            if (methodName.matches("\\S*Sort")) {
+                Integer[] mayRightRes = computeCostTime(method, integers.clone(), 0, integers.length - 1);
+                for (int i = 0; i < integers.length; i++) {
+                    assert mayRightRes[i].equals(rightRes[i]);
+                }
+            }
+        }
+    }
 
-        System.out.println(Arrays.toString(integers));
+    private static Integer[] computeCostTime(Method method, Object... args)
+            throws InvocationTargetException, IllegalAccessException {
+        System.out.println("method.getName() = " + method.getName());
+        long start = System.currentTimeMillis();
+        Integer[] res = (Integer[]) method.invoke(null, args);
+        System.out.println("cost time is " + (System.currentTimeMillis() - start) + "ms");
+        return res;
     }
 }
