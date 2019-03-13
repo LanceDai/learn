@@ -150,7 +150,6 @@ public class EightSort {
         margeSort(data, start, mid);
         margeSort(data, mid + 1, end);
         //合并
-        Integer[] tempData = new Integer[data.length];
         int i = start, j = mid + 1, cursor = start;
         while (i <= mid || j <= end) {
             if (i > mid) {
@@ -184,7 +183,6 @@ public class EightSort {
             for (int i = 0; i < data.length; i++) {
                 digitCount[(data[i] / digitPosition) % 10]++;
             }
-
             for (int i = 1; i < digitCount.length; i++) {
                 digitCount[i] += digitCount[i - 1];
             }
@@ -199,6 +197,7 @@ public class EightSort {
         return data;
     }
 
+    static Integer[] tempData;
 
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
         Random random = new Random();
@@ -207,6 +206,7 @@ public class EightSort {
             integers[i] = random.nextInt(100);
             random.setSeed(random.nextLong());
         }
+        tempData = new Integer[integers.length];
         System.out.println("integers = " + Arrays.toString(integers));
         System.out.println("integers length = " + integers.length);
         Integer[] rightRes = integers.clone();
