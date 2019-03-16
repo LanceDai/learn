@@ -1,74 +1,51 @@
 import java.util.*;
-import java.util.zip.Deflater;
+
+import static java.lang.Math.abs;
+import static java.lang.Math.max;
 
 public class Main {
-
-    static class Node implements Comparable<Node> {
-
-        char index;
-        long val;
-
-        public Node(char index, long val) {
-            this.index = index;
-            this.val = val;
-        }
-
-        @Override
-        public int compareTo(Node o) {
-            return this.val > o.val ? -1 : 1;
-        }
-    }
-
     public static void main(String[] args) {
-        int n;
         Scanner input = new Scanner(System.in);
-        n = input.nextInt();
-        String[] strings = new String[n + 5];
-        for (int i = 0; i < n; i++) {
-            strings[i] = input.next();
-        }
-        int[] first =new int[10];
-        HashMap<Character, Node> vals = new HashMap<>();
-        for (int i = 0; i < n; i++) {
-            long res = 1;
-            first[strings[i].charAt(0) - 'A'] = 1;
-            for (int j = strings[i].length() - 1; j >= 0; --j) {
-                char c = strings[i].charAt(j);
-                if(vals.get(c) != null){
-                    vals.get(c).val += res;
-                }else{
-                    vals.put(c, new Node(c, res));
+        int T;
+        T = input.nextInt();
+        while (T-- > 0) {
+            int n;
+            n = input.nextInt();
+            int[] a = new int[n];
+            int[] b = new int[n];
+            for (int i = 0; i < n; i++) {
+                a[i] = input.nextInt();
+            }
+            Arrays.fill(b, 1);
+            int flag = 1, pre, next;
+            while (flag != 0) {
+                flag = 0;
+                for (int i = 0; i < n; ++i) {
+                    pre = i - 1 < 0 ? n - 1 : i - 1;
+                    next = i + 1 >= n ? 0 : i + 1;
+                    if (a[i] > a[pre] && a[i] > a[next]) {
+                        if (b[i] != Math.max(b[pre], b[next]) + 1) {
+                            b[i] = Math.max(b[pre], b[next]) + 1;
+                            flag++;
+                        }
+                    } else if (a[i] > a[pre] && a[i] <= a[next]) {
+                        if (b[i] != b[pre] + 1) {
+                            b[i] = b[pre] + 1;
+                            flag++;
+                        }
+                    } else if (a[i] <= a[pre] && a[i] > a[next]) {
+                        if (b[i] != b[next] + 1) {
+                            b[i] = b[next] + 1;
+                            flag++;
+                        }
+                    }
                 }
-                res *= 10;
             }
-        }
-        ArrayList<Node> res = new ArrayList<>(vals.values());
-        Collections.sort(res);
-        int[] ans = new int[10];
-        int count = 9;
-
-        for (Node re : res) {
-            ans[re.index - 'A'] = count--;
-        }
-        int index = res.get(res.size() - 1).index - 'A';
-        if(ans[index] == 0 && first[index] == 1){
-            for (int i = res.size() - 1; i > 0 ; --i) {
-                index = res.get(i).index - 'A';
-                if(first[index] != 1){
-                    ans[index] = 0;
-                    break;
-                }
-                ans[res.get(i).index - 'A'] = ans[res.get(i - 1).index - 'A'];
+            long sum = 0;
+            for (int i = 0; i < n; i++) {
+                sum += b[i];
             }
+            System.out.println(sum);
         }
-        long ansRes = 0;
-        for (int i = 0; i < n; i++) {
-            long temp = 0;
-            for (int j = 0; j < strings[i].length(); j++) {
-                temp = temp * 10 + ans[strings[i].charAt(j) - 'A'];
-            }
-            ansRes += temp;
-        }
-        System.out.println(ansRes);
     }
 }
