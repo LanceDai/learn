@@ -33,6 +33,7 @@ class Test {
 //        Character.hashCode();
 //        Byte.hashCode();
 //        Boolean.hashCode();
+//        ThreadLocal
     }
 }
 
