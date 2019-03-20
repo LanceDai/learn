@@ -3,6 +3,8 @@ package com.learn.simple.spring;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * @author LanceDai
  * @date 2019/2/20 13:53
@@ -27,5 +29,6 @@ public class StartSpring {
 //        System.out.println(c == a);
         log.info("容器关闭");
         context.close();
+        ConcurrentHashMap concurrentHashMap;
     }
 }
