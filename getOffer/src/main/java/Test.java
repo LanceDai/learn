@@ -6,6 +6,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 class Test {
     private static final int SIZE = 100;
@@ -34,6 +35,9 @@ class Test {
 //        Byte.hashCode();
 //        Boolean.hashCode();
 //        ThreadLocal
+        ConcurrentHashMap
+        AbstractQueuedSynchronizer a;
+        ReentrantReadWriteLock reentrantReadWriteLock;
     }
 }
 

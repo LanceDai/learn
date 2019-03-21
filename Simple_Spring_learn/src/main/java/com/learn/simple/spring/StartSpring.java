@@ -4,6 +4,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author LanceDai
@@ -30,5 +32,7 @@ public class StartSpring {
         log.info("容器关闭");
         context.close();
         ConcurrentHashMap concurrentHashMap;
+        ReentrantLock reentrantLock = new ReentrantLock();
+        AbstractQueuedSynchronizer abstractQueuedSynchronizer;
     }
 }
