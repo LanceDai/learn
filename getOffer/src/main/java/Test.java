@@ -1,10 +1,7 @@
 import javax.script.SimpleBindings;
 import javax.swing.plaf.TableHeaderUI;
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.*;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
@@ -35,9 +32,13 @@ class Test {
 //        Byte.hashCode();
 //        Boolean.hashCode();
 //        ThreadLocal
-        ConcurrentHashMap
+        ConcurrentHashMap concurrentHashMap1;
         AbstractQueuedSynchronizer a;
         ReentrantReadWriteLock reentrantReadWriteLock;
+        ThreadFactory threadFactory;
+        ThreadLocal<Object> threadLocal = new ThreadLocal<>();
+        threadLocal.set();
+        threadLocal.get();
     }
 }
 
