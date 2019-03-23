@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4f5d4f4-0590-49c9-b55b-3e0379417e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/ScheduledExecutorServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Simple_Spring_learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple_Spring_learn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Simple_Spring_learn/src/main/java/com/learn/simple/spring/StartSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple_Spring_learn/src/main/java/com/learn/simple/spring/StartSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/getOffer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/getOffer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4f5d4f4-0590-49c9-b55b-3e0379417e2d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -310,7 +301,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553238474214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553320470420" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/interview/AIPa-master" />
     <property name="project.structure.last.edited" value="Project" />
@@ -436,7 +427,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23071764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
