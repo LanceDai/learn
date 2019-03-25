@@ -37,8 +37,7 @@ class Test {
         ReentrantReadWriteLock reentrantReadWriteLock;
         ThreadFactory threadFactory;
         ThreadLocal<Object> threadLocal = new ThreadLocal<>();
-        threadLocal.set();
-        threadLocal.get();
+        ReentrantReadWriteLock lock;
     }
 }
 
