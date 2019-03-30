@@ -203,7 +203,7 @@ public class EightSort {
         Random random = new Random();
         Integer[] integers = new Integer[(random.nextInt(10) + 1) * 10000];
         for (int i = 0; i < integers.length; i++) {
-            integers[i] = random.nextInt(100);
+            integers[i] = random.nextInt(1000000);
             random.setSeed(random.nextLong());
         }
         tempData = new Integer[integers.length];

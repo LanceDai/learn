@@ -38,6 +38,7 @@ class Test {
         ThreadFactory threadFactory;
         ThreadLocal<Object> threadLocal = new ThreadLocal<>();
         ReentrantReadWriteLock lock;
+        ConcurrentSkipListSet
     }
 }
 
