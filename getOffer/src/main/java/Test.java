@@ -38,7 +38,9 @@ class Test {
         ThreadFactory threadFactory;
         ThreadLocal<Object> threadLocal = new ThreadLocal<>();
         ReentrantReadWriteLock lock;
-        ConcurrentSkipListSet
+        ConcurrentSkipListSet concurrentSkipListSet;
+        LinkedBlockingQueue linkedBlockingQueue = new LinkedBlockingQueue(1000);
+        ArrayBlockingQueue arrayBlockingQueue = new ArrayBlockingQueue(1000);
     }
 }
 
