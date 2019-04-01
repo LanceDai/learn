@@ -41,6 +41,8 @@ class Test {
         ConcurrentSkipListSet concurrentSkipListSet;
         LinkedBlockingQueue linkedBlockingQueue = new LinkedBlockingQueue(1000);
         ArrayBlockingQueue arrayBlockingQueue = new ArrayBlockingQueue(1000);
+        Object o1;
+        o1.wait();
     }
 }
 
