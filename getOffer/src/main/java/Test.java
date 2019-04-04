@@ -9,7 +9,7 @@ class Test {
     private static final int SIZE = 100;
 
     public static void main(String[] args) {
-        String str = new String("abc");
+        String str = "abc";
         System.out.println("str = " + str);
         LinkedHashMap linkedHashMap = new LinkedHashMap(SIZE) {
             @Override
@@ -42,7 +42,14 @@ class Test {
         LinkedBlockingQueue linkedBlockingQueue = new LinkedBlockingQueue(1000);
         ArrayBlockingQueue arrayBlockingQueue = new ArrayBlockingQueue(1000);
         Object o1;
-        o1.wait();
+//        o1.wait();
+        Callable callable;
+        ArrayBlockingQueue arrayBlockingQueue1;
+        ArrayList arrayList;
+        FutureTask<Boolean> futureTask = new FutureTask<>(() -> {
+            System.out.println("Hello");
+            return true;
+        });
     }
 }
 
@@ -57,4 +64,8 @@ class Test {
     Object getInstance() {
         return this.o;
     }
+}
+
+abstract interface tt extends Cloneable, Enumeration{
+
 }
