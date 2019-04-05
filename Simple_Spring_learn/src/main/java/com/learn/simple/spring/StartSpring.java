@@ -1,5 +1,6 @@
 package com.learn.simple.spring;
 
+import com.learn.simple.spring.service.MessageService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -21,7 +22,7 @@ public class StartSpring {
                 new ClassPathXmlApplicationContext("classpath:application.xml");
         System.out.println("context 启动成功");
 //        // 从 context 中取出我们的 Bean，而不是用 new MessageServiceImpl() 这种方式
-        service.MessageService messageService = context.getBean(service.MessageService.class);
+        MessageService messageService = context.getBean(MessageService.class);
 //        service.MessageService messageService = context.getBean(service.MessageService.class);
 //        // 这句将输出: hello world
 //        System.out.println(messageService.getMessage());
