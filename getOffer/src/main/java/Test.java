@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 class Test {
     private static final int SIZE = 100;
 
-    public static void main(String[] args) {
+    private static void test() {
         String str = "abc";
         System.out.println("str = " + str);
         LinkedHashMap linkedHashMap = new LinkedHashMap(SIZE) {
@@ -50,10 +50,24 @@ class Test {
             System.out.println("Hello");
             return true;
         });
+
+        ClassLoader classLoader;
+        Integer integer;
+        PriorityBlockingQueue queue;
+    }
+
+    private static String a = "ab";
+
+    public static void main(String[] args) {
+        String s1 = "a";
+        String s2 = "b";
+        String s = s1 + s2;//+的用法
+        System.out.println(s == a);
+        System.out.println(s.intern() == a);//intern的含义
     }
 }
 
- enum Singleton {
+enum Singleton {
     SINGLETON;
     Object o;
 
@@ -66,6 +80,6 @@ class Test {
     }
 }
 
-abstract interface tt extends Cloneable, Enumeration{
+abstract interface tt extends Cloneable, Enumeration {
 
 }
