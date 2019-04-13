@@ -39,12 +39,15 @@ object Test {
     //    pt.move(10, 10)
 //    val loc = new Location(10, 20, 30)
 //    loc.move(1, 2, 3)
-    val p1 = new Point(2,3)
-    val p2 = new Point(2,4)
-    val p3 = new Point(4,3)
+//    val p1 = new Point(2,3)
+//    val p2 = new Point(2,4)
+//    val p3 = new Point(4,3)
+//
+//    println(p1.isNotEqual(p2))
+//    println(p1.isNotEqual(p3))
+//    println(p1.isNotEqual(2))
+    import scala.io.Source._
+    lazy val file = fromFile("D:\\WorkSpace\\JavaWorkSpace\\learn\\scala_learn\\project\\build.properties").mkString
 
-    println(p1.isNotEqual(p2))
-    println(p1.isNotEqual(p3))
-    println(p1.isNotEqual(2))
   }
 }

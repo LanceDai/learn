@@ -286,7 +286,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 40ms :: artifacts dl 10ms
+[debug] :: resolution report :: resolve 78ms :: artifacts dl 6ms
 [debug] 	report for default#scala_learn$sources;0.1.0-SNAPSHOT compile produced in D:\WorkSpace\JavaWorkSpace\learn\scala_learn\target\scala-2.12\resolution-cache\reports\default-scala_learn$sources-compile.xml
 [debug] 	report for default#scala_learn$sources;0.1.0-SNAPSHOT runtime produced in D:\WorkSpace\JavaWorkSpace\learn\scala_learn\target\scala-2.12\resolution-cache\reports\default-scala_learn$sources-runtime.xml
 [debug] 	report for default#scala_learn$sources;0.1.0-SNAPSHOT test produced in D:\WorkSpace\JavaWorkSpace\learn\scala_learn\target\scala-2.12\resolution-cache\reports\default-scala_learn$sources-test.xml
@@ -298,4 +298,4 @@
 [debug] 	report for default#scala_learn$sources;0.1.0-SNAPSHOT plugin produced in D:\WorkSpace\JavaWorkSpace\learn\scala_learn\target\scala-2.12\resolution-cache\reports\default-scala_learn$sources-plugin.xml
 [debug] 	report for default#scala_learn$sources;0.1.0-SNAPSHOT pom produced in D:\WorkSpace\JavaWorkSpace\learn\scala_learn\target\scala-2.12\resolution-cache\reports\default-scala_learn$sources-pom.xml
 [debug] 	report for default#scala_learn$sources;0.1.0-SNAPSHOT scala-tool produced in D:\WorkSpace\JavaWorkSpace\learn\scala_learn\target\scala-2.12\resolution-cache\reports\default-scala_learn$sources-scala-tool.xml
-[debug] 	resolve done (40ms resolve - 10ms download)
+[debug] 	resolve done (78ms resolve - 6ms download)

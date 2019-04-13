@@ -1,72 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4f5d4f4-0590-49c9-b55b-3e0379417e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jnaLearn/src/main/resources/sayHello.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jnaLearn/src/main/resources/sayHello.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/dictionaries/60384.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaProject_learn/src/main/scala/com/learn/ScalaHelloBoot.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/dictionaries/60384.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/modules/scala_learn-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/src/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/src/bobsrocckets/navigation/launch/tt.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/src/p/HelloWorld.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/src/p/Super.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala_learn/src/tt.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/java/com/learn/scalaspringboot/controller/HelloBoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/java/com/learn/scalaspringboot/controller/MetaDatabaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/java/com/learn/scalaspringboot/domain/MetaDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/java/com/learn/scalaspringboot/repository/MetaDatabaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/java/com/learn/scalaspringboot/service/MetaDatabaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/scala/com/learn/scalaspringboot/ScalaHelloBoot.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/scala/com/learn/scalaspringboot/controller/MetaTableController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/scala/com/learn/scalaspringboot/domain/MetaTable.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalaspringboot/src/main/scala/com/learn/scalaspringboot/service/MetaTableService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jnaLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jnaLearn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jnaLearn/src/main/java/JNATest_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jnaLearn/src/main/java/JNATest_2.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4f5d4f4-0590-49c9-b55b-3e0379417e2d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="49" column="43" lean-forward="true" selection-end-line="98" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="94" column="28" lean-forward="true" selection-end-line="98" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -401,12 +336,12 @@
       <workItem from="1554796907722" duration="596000" />
       <workItem from="1554861197824" duration="423000" />
       <workItem from="1554944645053" duration="32000" />
-      <workItem from="1555070080707" duration="2612000" />
+      <workItem from="1555070080707" duration="3390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146027000" />
+    <option name="totallyTimeSpent" value="146805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -422,7 +357,7 @@
       <window_info anchor="bottom" id="SBT Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4511173" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4511173" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33519554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -980,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="49" column="43" lean-forward="true" selection-end-line="98" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="94" column="28" lean-forward="true" selection-end-line="98" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
