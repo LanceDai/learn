@@ -4,7 +4,7 @@
 		module="scala_learn$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190413105830"
+		publication="20190414103400"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
