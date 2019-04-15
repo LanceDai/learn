@@ -9,6 +9,7 @@ import java.util.Arrays;
 
 @Component
 @Slf4j
+@Aspect
 public class AnnotationBean implements InitializingBean {
 
 //    @PostConstruct

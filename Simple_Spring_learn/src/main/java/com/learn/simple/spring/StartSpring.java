@@ -2,6 +2,9 @@ package com.learn.simple.spring;
 
 import com.learn.simple.spring.service.MessageService;
 import lombok.extern.slf4j.Slf4j;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.aop.aspectj.AspectJAfterAdvice;
+import org.springframework.aop.framework.ProxyFactoryBean;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.concurrent.ConcurrentHashMap;
@@ -14,6 +17,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @description spring容器启动类
  */
 @Slf4j
+@Aspect
 public class StartSpring {
 
     public static void main(String[] args) {
@@ -35,5 +39,7 @@ public class StartSpring {
         ConcurrentHashMap concurrentHashMap;
         ReentrantLock reentrantLock = new ReentrantLock();
         AbstractQueuedSynchronizer abstractQueuedSynchronizer;
+        AspectJAfterAdvice aspectJAfterAdvice;
+        ProxyFactoryBean proxyFactoryBean;
     }
 }
