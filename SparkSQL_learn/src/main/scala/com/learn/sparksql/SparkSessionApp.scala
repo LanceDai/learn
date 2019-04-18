@@ -20,7 +20,7 @@ object SparkSessionApp {
     val path = "D:\\WorkSpace\\JavaWorkSpace\\learn\\SparkSQL_learn\\src\\main\\resources\\people.json"
     val people = sparkSession.read.json(path)
     people.show()
-    //3) 关闭资源
+    //3) 关闭资源v
     sparkSession.stop()
   }
 }
