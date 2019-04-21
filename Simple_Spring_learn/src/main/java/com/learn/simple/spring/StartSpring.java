@@ -7,6 +7,7 @@ import org.springframework.aop.aspectj.AspectJAfterAdvice;
 import org.springframework.aop.framework.ProxyFactoryBean;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import javax.servlet.ServletContainerInitializer;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.ReentrantLock;
@@ -41,5 +42,6 @@ public class StartSpring {
         AbstractQueuedSynchronizer abstractQueuedSynchronizer;
         AspectJAfterAdvice aspectJAfterAdvice;
         ProxyFactoryBean proxyFactoryBean;
+        ServletContainerInitializer servletContainerInitializer;
     }
 }
