@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e12b80f-012a-4a52-bd26-84131656b165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/docker/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/docker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="11" column="96" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="96" />
+            <state relative-caret-position="47">
+              <caret line="11" column="96" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -72,10 +71,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="161" />
+    <option name="width" value="1440" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,47 +83,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SparkCluster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkCluster" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkCluster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkCluster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkCluster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkCluster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkCluster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkCluster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkCluster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkCluster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -186,15 +145,16 @@
       <option name="presentableId" value="Default" />
       <updated>1556257217682</updated>
       <workItem from="1556257219602" duration="1143000" />
-      <workItem from="1556438576702" duration="4627000" />
+      <workItem from="1556438576702" duration="5225000" />
+      <workItem from="1556889816346" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5770000" />
+    <option name="totallyTimeSpent" value="6397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5228216" />
@@ -202,8 +162,6 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -211,7 +169,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" visible="true" weight="0.40536723" />
+      <window_info anchor="bottom" id="Docker" order="7" visible="true" weight="0.40223464" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -219,6 +177,8 @@
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="15" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="11" column="96" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="96" />
+        <state relative-caret-position="47">
+          <caret line="11" column="96" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="96" />
         </state>
       </provider>
     </entry>
