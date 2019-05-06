@@ -2,25 +2,26 @@
   <library name="scala-sdk-2.12.8" type="Scala">
     <properties>
       <compiler-classpath>
-        <root url="file://D:/scala/lib/scala-compiler.jar" />
-        <root url="file://D:/scala/lib/scala-library.jar" />
-        <root url="file://D:/scala/lib/scala-reflect.jar" />
+        <root url="file://$USER_HOME$/software/scala-2.12.8/lib/scala-compiler.jar" />
+        <root url="file://$USER_HOME$/software/scala-2.12.8/lib/scala-library.jar" />
+        <root url="file://$USER_HOME$/software/scala-2.12.8/lib/scala-reflect.jar" />
       </compiler-classpath>
     </properties>
     <CLASSES>
-      <root url="jar://D:/scala/lib/scala-library.jar!/" />
-      <root url="jar://D:/scala/lib/scala-parser-combinators_2.12-1.0.7.jar!/" />
-      <root url="jar://D:/scala/lib/scala-reflect.jar!/" />
-      <root url="jar://D:/scala/lib/scala-swing_2.12-2.0.3.jar!/" />
-      <root url="jar://D:/scala/lib/scala-xml_2.12-1.0.6.jar!/" />
+      <root url="jar://$USER_HOME$/software/scala-2.12.8/lib/scala-swing_2.12-2.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/software/scala-2.12.8/lib/scala-library.jar!/" />
+      <root url="jar://$USER_HOME$/software/scala-2.12.8/lib/scala-reflect.jar!/" />
+      <root url="jar://$USER_HOME$/software/scala-2.12.8/lib/scala-xml_2.12-1.0.6.jar!/" />
+      <root url="jar://$USER_HOME$/software/scala-2.12.8/lib/scala-parser-combinators_2.12-1.0.7.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/scala/api/jars/scala-library-2.12.8-javadoc.jar!/" />
-      <root url="jar://D:/scala/api/jars/scala-parser-combinators_2.12-1.0.7-javadoc.jar!/" />
-      <root url="jar://D:/scala/api/jars/scala-reflect-2.12.8-javadoc.jar!/" />
-      <root url="jar://D:/scala/api/jars/scala-swing_2.12-2.0.3-javadoc.jar!/" />
-      <root url="jar://D:/scala/api/jars/scala-xml_2.12-1.0.6-javadoc.jar!/" />
+      <root url="http://www.scala-lang.org/api/2.12.8/" />
     </JAVADOC>
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/software/scala-2.12.8/lib/scala-library.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar!/" />
+      <root url="file://$USER_HOME$/software/scala-2.12.8/scala-2.12.8/src/intellij" />
+      <root url="file://$USER_HOME$/software/scala-2.12.8/scala-2.12.8/src/library" />
+    </SOURCES>
   </library>
 </component>
