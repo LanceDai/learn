@@ -1,0 +1,491 @@
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#sbt_learn$sources;0.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.12.7 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.7] org.scala-lang#scala-library;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.2.0-SNAP10 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scalactic#scalactic_2.12;3.2.0-SNAP10[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scalactic#scalactic_2.12;3.2.0-SNAP10 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.2.0-SNAP10 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.2.0-SNAP10[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scalatest#scalatest_2.12;3.2.0-SNAP10 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.7 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.12.7 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.7] org.scala-lang#scala-reflect;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalactic#scalactic_2.12;3.2.0-SNAP10 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scalatest#scalatest_2.12;3.2.0-SNAP10 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#sbt_learn$sources;0.1 [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, compile, runtime, optional, optional(default), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.12.7 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-reflect;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->org.scala-lang#scala-library;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->jline#jline;2.14.6 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[master(*), compile, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: jline#jline;2.14.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.14.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->jline#jline;2.14.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->jline#jline;2.14.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#sbt_learn$sources;0.1->jline#jline;2.14.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.2.0-SNAP10!scalactic_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/lance/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/lance/.ivy2/local/org.scalatest/scalatest_2.12/3.2.0-SNAP10/srcs/scalatest_2.12-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried http://maven.aliyun.com/nexus/content/groups/public/org/scalatest/scalatest_2.12/3.2.0-SNAP10/scalatest_2.12-3.2.0-SNAP10-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/lance/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/lance/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/lance/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/lance/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/lance/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (38ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/lance/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/lance/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (46ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/lance/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (46ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/lance/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading http://maven.aliyun.com/nexus/content/groups/public/org/scalatest/scalatest_2.12/3.2.0-SNAP10/scalatest_2.12-3.2.0-SNAP10-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	aliyun-nexus: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scalatest/scalatest_2.12/3.2.0-SNAP10/scalatest_2.12-3.2.0-SNAP10-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	aliyun-nexus: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scalatest/scalatest_2.12/3.2.0-SNAP10/scalatest_2.12-3.2.0-SNAP10-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scalatest/scalatest_2.12/3.2.0-SNAP10/scalatest_2.12-3.2.0-SNAP10-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.2.0-SNAP10!scalatest_2.12.jar(src) (2538ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 187ms :: artifacts dl 2546ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 compile produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 runtime produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 test produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 provided produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 optional produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 compile-internal produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 runtime-internal produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 test-internal produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 plugin produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 pom produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#sbt_learn$sources;0.1 scala-tool produced in /home/lance/IdeaProjects/github/learn/sbt_learn/target/scala-2.12/resolution-cache/reports/default-sbt_learn$sources-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (187ms resolve - 2546ms download)[0m

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <profile name="sbt 1" modules="scala_learn,scala_learn_3086">
+      <option name="reflectiveCalls" value="true" />
       <option name="implicitConversions" value="true" />
     </profile>
   </component>

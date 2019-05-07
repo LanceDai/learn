@@ -1,8 +1,10 @@
 /**
-  * @author LanceDai 
-  * @date 2019/4/12 14:22 
-  * @description * 
+  * @author LanceDai
+  * @date 2019/4/12 14:22
+  * @description *
   */
+
+
 package bobsrocckets {
   package navigation {
 
@@ -22,8 +24,6 @@ package bobsrocckets {
 
 package launch {
 
-  import bobsrocckets.navigation.Navigator
-
   object Vehicle {
 
     def main(args: Array[String]): Unit = {
@@ -32,5 +32,6 @@ package launch {
   }
 
 }
+
 
 
