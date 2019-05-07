@@ -4,7 +4,7 @@
 		module="sbt_learn_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190506211258"
+		publication="20190507114214"
 	>
 		<description>
 		sbt_learn
@@ -30,8 +30,10 @@
 		<artifact name="sbt_learn_2.12" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.7" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.12.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.2.0-SNAP10" conf="test->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="latest.milestone" conf="test->default(compile)"/>
+		<dependency org="org.scalacheck" name="scalacheck_2.12" rev="latest.milestone" conf="test->default(compile)"/>
+		<dependency org="com.eed3si9n" name="sbt-assembly" rev="0.8.4" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 	</dependencies>
 </ivy-module>

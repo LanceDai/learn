@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaSbtSettings">
-    <option name="customLauncherEnabled" value="true" />
     <option name="customLauncherPath" value="$USER_HOME$/software/sbt/bin/sbt-launch.jar" />
     <option name="customVMPath" />
     <option name="linkedExternalProjectsSettings">
@@ -13,12 +12,13 @@
             <option value="$PROJECT_DIR$/project" />
           </set>
         </option>
-        <option name="resolveSbtClassifiers" value="true" />
+        <option name="sbtVersion" value="1.2.8" />
         <option name="useAutoImport" value="true" />
         <option name="useSbtShellForBuild" value="true" />
         <option name="useSbtShellForImport" value="true" />
       </SbtProjectSettings>
     </option>
+    <option name="maximumHeapSize" value="2048" />
     <option name="vmParameters" value="-Dsbt.override.build.repos=true" />
   </component>
 </project>
