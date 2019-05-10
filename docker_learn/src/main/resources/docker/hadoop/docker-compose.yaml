@@ -1,0 +1,83 @@
+version: "3"
+
+networks:
+  hadoop-cluster:
+
+services:
+  hadoop-master:
+    image: hadoop-base:latest
+    container_name: hadoop-master
+    env_file:
+      - ./hadoop.env
+    volumes:
+      - hadoop_namenode_master:/root/hdfs/namenode
+      - hadoop_datanode_master:/root/hdfs/datanode
+    tty: true
+    command: start-all.sh
+    networks:
+      - hadoop-cluster
+    hostname: hadoop-master
+    ports:
+      - 50070:50070
+      - 8088:8088
+
+  hadoop-slave1:
+    image: hadoop-base:latest
+    container_name: hadoop-slave1
+    tty: true
+    volumes:
+      - hadoop_namenode_slave1:/root/hdfs/namenode
+      - hadoop_datanode_slave1:/root/hdfs/datanode
+    env_file:
+      - ./hadoop.env
+    networks:
+      - hadoop-cluster
+    hostname: hadoop-slave1
+  hadoop-slave2:
+    image: hadoop-base:latest
+    container_name: hadoop-slave2
+    tty: true
+    volumes:
+      - hadoop_namenode_slave2:/root/hdfs/namenode
+      - hadoop_datanode_slave2:/root/hdfs/datanode
+    env_file:
+      - ./hadoop.env
+    networks:
+      - hadoop-cluster
+    hostname: hadoop-slave2
+  hadoop-slave3:
+    image: hadoop-base:latest
+    container_name: hadoop-slave3
+    tty: true
+    volumes:
+      - hadoop_namenode_slave3:/root/hdfs/namenode
+      - hadoop_datanode_slave3:/root/hdfs/datanode
+    env_file:
+      - ./hadoop.env
+    networks:
+      - hadoop-cluster
+    hostname: hadoop-slave3
+  hadoop-slave4:
+    image: hadoop-base:latest
+    container_name: hadoop-slave4
+    tty: true
+    volumes:
+      - hadoop_namenode_slave4:/root/hdfs/namenode
+      - hadoop_datanode_slave4:/root/hdfs/datanode
+    env_file:
+      - ./hadoop.env
+    networks:
+      - hadoop-cluster
+    hostname: hadoop-slave4
+
+volumes:
+  hadoop_namenode_master:
+  hadoop_datanode_master:
+  hadoop_namenode_slave1:
+  hadoop_datanode_slave1:
+  hadoop_namenode_slave2:
+  hadoop_datanode_slave2:
+  hadoop_namenode_slave3:
+  hadoop_datanode_slave3:
+  hadoop_namenode_slave4:
+  hadoop_datanode_slave4:
