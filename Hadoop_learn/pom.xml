@@ -6,7 +6,11 @@
 
     <groupId>cn.lancedai.learn</groupId>
     <artifactId>Hadoop_learn</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>hadoop_streaming_learn</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

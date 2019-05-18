@@ -10,7 +10,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Hadoop_learn" target="1.8" />
       <module name="hadoop_streaming_learn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
