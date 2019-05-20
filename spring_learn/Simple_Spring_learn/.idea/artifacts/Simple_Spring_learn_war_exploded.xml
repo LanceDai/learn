@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Simple_Spring_learn:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Simple_Spring_learn_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Simple_Spring_learn" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.16" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.4" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.11.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.11.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Simple_Spring_learn/web/Web" />
+    </root>
+  </artifact>
+</component>

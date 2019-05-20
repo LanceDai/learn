@@ -1,0 +1,54 @@
+[0m[[0m[31merror[0m] [0m[0msbt.librarymanagement.ResolveException: unresolved dependency: com.eed3si9n#sbt-assembly;0.8.4: Resolution failed several times for dependency: com.eed3si9n#sbt-assembly;0.8.4 {compile=[default(compile)]}:: [0m
+[0m[[0m[31merror[0m] [0m[0m	oschina: unable to get resource for com/eed3si9n#sbt-assembly;0.8.4: res=http://maven.oschina.net/content/groups/public/com/eed3si9n/sbt-assembly_2.12_1.0/0.8.4/sbt-assembly-0.8.4.pom: java.net.UnknownHostException: maven.oschina.net: 未知的名称或服务[0m
+[0m[[0m[31merror[0m] [0m[0m	oschina-ivy: unable to get resource for com.eed3si9n#sbt-assembly;0.8.4: res=http://maven.oschina.net/content/groups/public/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.8.4/ivys/ivy.xml: java.net.UnknownHostException: maven.oschina.net[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Using$.withResource(Using.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Using$.apply(Using.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Locks$.apply0(Locks.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Locks$.apply(Locks.scala:28)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.control.Exception$Catch.apply(Exception.scala:224)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m([31mssExtractDependencies[0m) sbt.librarymanagement.ResolveException: unresolved dependency: com.eed3si9n#sbt-assembly;0.8.4: Resolution failed several times for dependency: com.eed3si9n#sbt-assembly;0.8.4 {compile=[default(compile)]}:: [0m
+[0m[[0m[31merror[0m] [0m[0m	oschina: unable to get resource for com/eed3si9n#sbt-assembly;0.8.4: res=http://maven.oschina.net/content/groups/public/com/eed3si9n/sbt-assembly_2.12_1.0/0.8.4/sbt-assembly-0.8.4.pom: java.net.UnknownHostException: maven.oschina.net: 未知的名称或服务[0m
+[0m[[0m[31merror[0m] [0m[0m	oschina-ivy: unable to get resource for com.eed3si9n#sbt-assembly;0.8.4: res=http://maven.oschina.net/content/groups/public/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.8.4/ivys/ivy.xml: java.net.UnknownHostException: maven.oschina.net[0m

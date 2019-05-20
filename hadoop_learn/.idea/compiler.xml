@@ -9,5 +9,8 @@
         <module name="hadoop_learn" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hadoop_learn" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
