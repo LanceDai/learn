@@ -1,0 +1,19 @@
+products:
+   src/main/scala/ConfigurationPrinter.scala -> target/classes/ConfigurationPrinter$.class
+   src/main/scala/ConfigurationPrinter.scala -> target/classes/ConfigurationPrinter.class
+   src/main/scala/HadoopFileOperationTestApp.scala -> target/classes/HadoopFileOperationTestApp$.class
+   src/main/scala/HadoopFileOperationTestApp.scala -> target/classes/HadoopFileOperationTestApp.class
+binary dependencies:
+   src/main/scala/ConfigurationPrinter.scala -> /home/lance/.m2/repository/org/apache/hadoop/hadoop-common/2.6.0-cdh5.16.1/hadoop-common-2.6.0-cdh5.16.1.jar
+   src/main/scala/ConfigurationPrinter.scala -> /home/lance/.m2/repository/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+   src/main/scala/ConfigurationPrinter.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+   src/main/scala/HadoopFileOperationTestApp.scala -> /home/lance/.m2/repository/org/apache/hadoop/hadoop-common/2.6.0-cdh5.16.1/hadoop-common-2.6.0-cdh5.16.1.jar
+   src/main/scala/HadoopFileOperationTestApp.scala -> /home/lance/.m2/repository/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+   src/main/scala/HadoopFileOperationTestApp.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/ConfigurationPrinter.scala -> ConfigurationPrinter
+   src/main/scala/ConfigurationPrinter.scala -> ConfigurationPrinter$
+   src/main/scala/HadoopFileOperationTestApp.scala -> HadoopFileOperationTestApp
+   src/main/scala/HadoopFileOperationTestApp.scala -> HadoopFileOperationTestApp$
