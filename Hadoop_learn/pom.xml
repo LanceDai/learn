@@ -5,8 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.lancedai.learn</groupId>
-    <artifactId>Hadoop_learn</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>hadoop_learn</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>hadoop_streaming_learn</module>
@@ -17,7 +16,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <encoding>UTF-8</encoding>
         <scala.version>2.12.8</scala.version>
-        <scala.compat.version>2.12</scala.compat.version>
         <hadoop-version>2.6.0-cdh5.16.1</hadoop-version>
     </properties>
     <repositories>
@@ -73,11 +71,32 @@
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
                 <version>3.2.2</version>
+                <configuration>
+                    <recompileMode>incremental</recompileMode>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
                             <goal>compile</goal>
                             <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.2-beta-5</version>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
                         </goals>
                     </execution>
                 </executions>

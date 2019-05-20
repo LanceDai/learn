@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hadoop_streaming_learn" />
+        <module name="hadoop_learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Hadoop_learn" target="1.8" />
-      <module name="hadoop_streaming_learn" target="1.8" />
+      <module name="hadoop_learn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
