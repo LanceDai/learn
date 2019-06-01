@@ -1,5 +1,4 @@
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.buffer.ByteBuf;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -8,8 +7,6 @@ import io.netty.handler.codec.LengthFieldPrepender;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.util.CharsetUtil;
-import io.netty.util.ReferenceCountUtil;
-import io.netty.util.ReferenceCounted;
 
 public class NettyServerDemo {
     private static final String IP = "127.0.0.1";
@@ -17,12 +14,12 @@ public class NettyServerDemo {
     private static final int BIZGROUPSIZE = Runtime.getRuntime().availableProcessors() * 2;
 
     private static final int BIZTHREADSIZE = 100;
-    private static final EventLoopGroup bossGroup = new NioEventLoopGroup(BIZGROUPSIZE);
-    private static final EventLoopGroup workerGroup = new NioEventLoopGroup(BIZTHREADSIZE);
+    private static final EventLoopGroup BOSS_GROUP = new NioEventLoopGroup(BIZGROUPSIZE);
+    private static final EventLoopGroup WORKER_GROUP = new NioEventLoopGroup(BIZTHREADSIZE);
 
     public static void service() throws Exception {
         ServerBootstrap bootstrap = new ServerBootstrap();
-        bootstrap.group(bossGroup, workerGroup);
+        bootstrap.group(BOSS_GROUP, WORKER_GROUP);
         bootstrap.channel(NioServerSocketChannel.class);
         bootstrap.childHandler(new ChannelInitializer<Channel>() {
 
@@ -36,15 +33,15 @@ public class NettyServerDemo {
                 pipeline.addLast(new TcpServerHandler());
             }
 
-        })
+        });
         ChannelFuture f = bootstrap.bind(IP, PORT).sync();
         f.channel().closeFuture().sync();
         System.out.println("TCP服务器已启动");
     }
 
     protected static void shutdown() {
-        workerGroup.shutdownGracefully();
-        bossGroup.shutdownGracefully();
+        WORKER_GROUP.shutdownGracefully();
+        BOSS_GROUP.shutdownGracefully();
     }
 
     public static void main(String[] args) throws Exception {
