@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SparkSQL_learn" />
+        <module name="SparkStreaming_learn" />
         <module name="Spark_learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spark_learn" target="11" />
+      <module name="SparkSQL_learn" target="1.5" />
+      <module name="SparkStreaming_learn" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

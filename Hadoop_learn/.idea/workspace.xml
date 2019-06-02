@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0922fbf9-130e-4609-8f93-915a8f2fdf29" name="Default Changelist" comment="" />
+    <list default="true" id="0922fbf9-130e-4609-8f93-915a8f2fdf29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../netty_learn/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netty_learn/.idea/Netty_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Netty_learn/.idea/Netty_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netty_learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Netty_learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netty_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Netty_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty_learn/src/main/java/example/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty_learn/src/main/java/example/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty_learn/src/main/resources/netty-in-action-source/chapter4/src/main/java/nia/chapter4/NettyOioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty_learn/src/main/resources/netty-in-action-source/chapter4/src/main/java/nia/chapter4/NettyOioServer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spark_learn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -135,6 +142,7 @@
       <updated>1558336887819</updated>
       <workItem from="1558336893947" duration="2142000" />
       <workItem from="1558575414766" duration="134000" />
+      <workItem from="1559443300343" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary="format">
       <created>1558337640313</created>
@@ -147,12 +155,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2276000" />
+    <option name="totallyTimeSpent" value="3170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -174,6 +182,7 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
