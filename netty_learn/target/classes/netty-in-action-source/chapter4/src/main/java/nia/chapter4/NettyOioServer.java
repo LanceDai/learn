@@ -31,7 +31,7 @@ public class NettyOioServer {
                         @Override
                         public void initChannel(SocketChannel ch)
                                 throws Exception {
-                                ch.pipeline().addLast(
+                            ch.pipeline().addLast(
                                     new ChannelInboundHandlerAdapter() {
                                         @Override
                                         public void channelActive(
