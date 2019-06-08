@@ -29,7 +29,7 @@ public class EchoClient {
         this.port = port;
     }
 
-    public void start() throws InterruptedException {
+    private void start() throws InterruptedException {
         EventLoopGroup group = new NioEventLoopGroup();
 
         try {
@@ -39,7 +39,7 @@ public class EchoClient {
                     .remoteAddress(new InetSocketAddress(host, port))
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
-                        protected void initChannel(SocketChannel ch) throws Exception {
+                        protected void initChannel(SocketChannel ch) {
                             ch.pipeline().addLast(new EchoClientHandler());
                         }
                     });

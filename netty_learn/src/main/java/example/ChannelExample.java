@@ -7,7 +7,6 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
 import java.net.InetSocketAddress;
-import java.nio.ByteBuffer;
 
 /**
  * @author LanceDai
@@ -22,20 +21,18 @@ public class ChannelExample {
                 .channel(NioSocketChannel.class)
                 .handler(new SimpleChannelInboundHandler<ByteBuf>() {
                     @Override
-                    protected void channelRead0(ChannelHandlerContext ctx, ByteBuf msg) throws Exception {
+                    protected void channelRead0(ChannelHandlerContext ctx, ByteBuf msg) {
                         System.out.println("Received data");
                     }
                 });
         ChannelFuture future = bootstrap.connect(
                 new InetSocketAddress("55", 80));
-        future.addListener(new ChannelFutureListener() {
-            public void operationComplete(ChannelFuture future) throws Exception {
-                if (future.isSuccess()) {
-                    System.out.println("Connection established");
-                } else {
-                    System.out.println("Connection attempt failed");
-                    future.cause().printStackTrace();
-                }
+        future.addListener((ChannelFutureListener) future1 -> {
+            if (future1.isSuccess()) {
+                System.out.println("Connection established");
+            } else {
+                System.out.println("Connection attempt failed");
+                future1.cause().printStackTrace();
             }
         });
     }

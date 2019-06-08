@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<body style="margin:0px;padding:1%;">
+<main>
+    <div class="container" id="jiemianContainer" style="width: 100%; margin: 0px; padding: 0px; display: none;">
+        <!--title-->
+        <div class="title" style="height:80px;">
+            <p style="padding-bottom: 1rem;">
+                <a href="#" id="xuehaoMain" style="padding-bottom: 1rem;color:#fff;"><span
+                        class="glyphicon glyphicon-list"></span>1160299023</a>&nbsp;
+                <a href="#" id="yonghuMain" style="padding-bottom: 1rem;color:#fff;"><span
+                        class="glyphicon glyphicon-user"></span>戴梁辉</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" id="tuichuXueshengButton" style="padding-bottom: 1rem;color:#fff;"
+                   onclick="tuichu();"><span></span>退出</a>
+            </p>
+            <p>
+            </p>
+        </div>
+        <!--查询业务-->
+        <div class="content">
+            <div style="width: 90%;margin-left: 5%;">
+                <ul>
+                    <li>考勤教学</li>
+                    <li class="inquireByDK">
+                        <a href="#" onclick="chaxunKecheng();">
+                            <img src="app/img/businessGuide/1.png">
+                            <p>教学资料</p>
+                        </a>
+                    </li>
+                    <li class="inquireByGJJ">
+                        <a href="#" onclick="chaxunKaoqin();">
+                            <img src="app/img/queryBusiness/1.png">
+                            <p>考勤查询</p>
+                        </a>
+                    </li>
+                    <li class="inquireByBT">
+                        <a href="#" onclick="pingshizuoye();">
+                            <img src="app/img/queryBusiness/2.png">
+                            <p>平时作业</p>
+                        </a>
+                    </li>
+                    <li class="inquireByDK">
+                        <a href="#" onclick="shiyanqiandao();">
+                            <img src="app/img/queryBusiness/3.png">
+                            <p>实验签到</p>
+                        </a>
+                    </li>
+                    <li class="inquireByDK">
+                        <a href="#" onclick="shiyanbaogaoLiebiao();">
+                            <img src="app/img/queryBusiness/3.png">
+                            <p>实验报告</p>
+                        </a>
+                    </li>
+                    <li class="inquireByDK">
+                        <a href="app/2019软件工程实验说明书.docx" target="_blank">
+                            <img src="app/img/queryBusiness/3.png">
+                            <p>实验报告下载</p>
+                        </a>
+                    </li>
+                    <li class="clear"></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--业务办理-->
+        <div class="content">
+            <div style="width: 90%;margin-left: 5%;">
+                <ul>
+                    <li>个人配置</li>
+                    <li class="inquireByTQHK">
+                        <a href="#" onclick="shezhiMima();">
+                            <img src="app/img/businessProcessing/1.png">
+                            <p>修改密码</p>
+                        </a>
+                    </li>
+                    <li class="inquireByTQHK">
+                        <a href="#" onclick="shezhiShoujihao();">
+                            <img src="app/img/businessProcessing/2.png">
+                            <p>修改手机号码</p>
+                        </a>
+                    </li>
+                    <li class="clear"></li>
+                </ul>
+            </div>
+        </div>
+        <!--&lt;!&ndash;业务指南&ndash;&gt;-->
+        <!--<div class="content">-->
+        <!--<div style="width: 90%;margin-left: 5%;">-->
+        <!--<ul>-->
+        <!--<li>业务指南</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/1.png">-->
+        <!--<p>提取业务咨询</p>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/2.png">-->
+        <!--<p>贷款业务咨询</p>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/3.png">-->
+        <!--<p>缴存业务咨询</p>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/4.png">-->
+        <!--<p>补贴业务咨询</p>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/5.png">-->
+        <!--<p>房改业务咨询</p>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/6.png">-->
+        <!--<p>热点专题</p>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/7.png">-->
+        <!--<p>网点查询</p>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/8.png">-->
+        <!--<p>贷款计算机</p>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<img src="app/img/businessGuide/9.png">-->
+        <!--<p>常见问题</p>-->
+        <!--</li>-->
+        <!--<li class="clear"></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+    <div class="container" id="xiajiContainer" style="width: 100%; margin: 0px; padding: 0px 0px 10px;">
+        <div id="xiajicaozuoDiv" style="margin:0px;padding:0px;width:100%;">
+            <div class="container" id="jiemianContainer1"
+                 style="width: 100%; margin: 0px; padding: 0px; display: none;">
+                <div class="panel panel-default" style="margin-bottom: 2px;">
+                    <div class="panel-heading" style="background: #0080cc; color: white;">
+                        <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div id="fanhuiButtonLiebiao1">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </div>
+                                </td>
+                                <td style="padding-left: 5px; text-align: center;">平时作业</td>
+                                <td style="padding-left: 5px; text-align: right;">
+                                    <div id="shuaxinButtonLiebiao1">
+                                        <span class="glyphicon glyphicon-refresh"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="panel-body" style="padding: 0px;">
+                        <div id="lxyshujuLiebiao1"><a href="javascript:void(0);" class="list-group-item">
+                            2018-2019(2)软件工程计算机161作业1<br>
+                            <p style="text-align:right;font-size:16px;">总分:100 得分:100 已交卷 </p></a>
+                            <a href="javascript:void(0);" class="list-group-item"> 2018-2019(2)软件工程计算机161作业2<br>
+                                <p style="text-align:right;font-size:16px;">总分:100 得分:0 练习中
+                                    <button type="button" onclick="kaishiLianxi(979,1,'戴梁辉的2018-2019(2)软件工程计算机161作业2');"
+                                            class="btn btn-default"><span class="glyphicon glyphicon-play"></span>
+                                    </button>
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="list-group-item"> 2018-2019(1) .Net平台技术作业1<br>
+                                <p style="text-align:right;font-size:16px;">总分:100 得分:100 已批卷
+                                    <button type="button" onclick="lianxiJieguo(357,8,' 2018-2019(1) .Net平台技术作业1');"
+                                            class="btn btn-default"><span class="glyphicon glyphicon-list-alt"></span>
+                                    </button>
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="list-group-item"> 2018-2019(1) .Net平台技术作业2<br>
+                                <p style="text-align:right;font-size:16px;">总分:100 得分:95 已批卷
+                                    <button type="button" onclick="lianxiJieguo(695,4,' 2018-2019(1) .Net平台技术作业2');"
+                                            class="btn btn-default"><span class="glyphicon glyphicon-list-alt"></span>
+                                    </button>
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="list-group-item"> 2018-2019(1) .Net平台技术作业3<br>
+                                <p style="text-align:right;font-size:16px;">总分:100 得分:100 已批卷
+                                    <button type="button" onclick="lianxiJieguo(763,4,' 2018-2019(1) .Net平台技术作业3');"
+                                            class="btn btn-default"><span class="glyphicon glyphicon-list-alt"></span>
+                                    </button>
+                                </p>
+                            </a>
+                        </div>
+                        <a id="jiazaiXiayiyeA1" href="javascript:void(0);" onclick="jiazaiLiebiao1();"
+                           class="list-group-item" style="text-align: center; display: none;"><span
+                                class="glyphicon glyphicon-arrow-down">下一页</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="xiajiContainer1" style="width: 100%; margin: 0px; padding: 0px 0px 10px;">
+                <div id="xiajicaozuoDiv1" style="margin:0px;padding:0px;width:100%;">
+                    <div class="container" id="jiemianContainer2" style="width: 100%; margin: 0px; padding: 0px;">
+                        <div class="panel panel-default" style="margin-bottom: 2px;">
+                            <div class="panel-heading" style="background: #0080cc; color: white;">
+                                <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <div id="fanhuiButtonLiebiao2">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                            </div>
+                                        </td>
+                                        <td style="padding-left: 5px; text-align: center;" id="xiajiTitle2">
+                                            戴梁辉的2018-2019(2)软件工程计算机161作业2
+                                        </td>
+                                        <td style="padding-left: 5px; text-align: right;">
+                                            <div id="shuaxinButtonLiebiao2">
+                                                <span class="glyphicon glyphicon-refresh"></span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="panel-body" style="padding: 0px;">
+                                <div class="row" id="lxyshujuTitle21" style="padding: 10px; display: none;">
+                                    <div class="col-xs-12 col-sm-12">
+                                        单选题、
+                                    </div>
+                                </div>
+                                <div id="lxyshujuLiebiao21" class="list-group"></div>
+                                <div class="row" id="lxyshujuTitle22" style="padding: 10px;">
+                                    <div class="col-xs-12 col-sm-12">
+                                        填空题、
+                                    </div>
+                                </div>
+                                <div id="lxyshujuLiebiao22" class="list-group"><a href="javascript:void(0);"
+                                                                                  class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">1、</div>
+                                        <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Types of
+                                            requirement:User requirements and ________________ requirements.
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:</div>
+                                        <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                type="text" style="width:200px;height:35px;"
+                                                name="shujuduixiangKey17086" value=""></div>
+                                    </div>
+                                </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">2、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">
+                                                Functional requirements:Statements of services the system should
+                                                provide, how the system should react to particular ___________ and how
+                                                the system should behave in particular situations.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17087" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">3、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">
+                                                Ambiguous requirements may be interpreted in different ways by
+                                                ___________ and users.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17088" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">4、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">
+                                                Requirements Consistent:There should be no ___________ or contradictions
+                                                in the descriptions of the system facilities.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17089" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">5、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">The
+                                                system should be easy to use by experienced ___________ and should be
+                                                organised in such a way that user errors are minimised.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17090" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">6、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">User
+                                                requirements are defined using natural language, tables and ___________
+                                                as these can be understood by all users.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17091" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">7、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Problems
+                                                with natural language:Lack of ___________,Requirements confusion and
+                                                Requirements amalgamation.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17092" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">8、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Event
+                                                Table – a catalog of use ___________ listed by event.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17093" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">9、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Types of
+                                                Events:External,___________ and State.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17094" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">10、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Use case
+                                                – an activity a system carried out, usually in ,___________ to a user
+                                                request
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17095" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">11、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Use case
+                                                description – a description of the processing ,___________ for a use
+                                                case.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17096" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">12、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Sequence
+                                                diagrams show the sequence of ,___________ that take place during some
+                                                user interaction with a system.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17097" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">13、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">The
+                                                requirements document is the official ,___________ of what is required
+                                                of the system developers.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17098" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">14、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">IEEE
+                                                requirements standard defines a generic ,___________ for a requirements
+                                                document that must be instantiated for each specific system.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17099" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">15、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Rapid
+                                                application development (RAD) design ___________ evolve into finished
+                                                system.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17100" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">16、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">
+                                                Intranets that have been extended outside the ___________
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17101" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">17、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">
+                                                Presentation layer:Concerned with presenting the ___________ of a
+                                                computation to system users and with collecting user inputs.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17102" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">18、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Domain
+                                                model class diagram shows conceptual classes in users’ work ___________.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17103" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">19、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Control
+                                                – mediates between ___________ and entity classes, between the view
+                                                layer and domain layer
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17104" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">20、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">
+                                                Attribute visibility (private or public) – attribute ___________,
+                                                type-expression, initial-value, property
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17105" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">21、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">
+                                                Encapsulation – each object is self-contained unit that includes data
+                                                and ___________ that access data
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17106" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">22、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Coupling
+                                                – qualitative ___________ of how closely classes in a design class
+                                                diagram are linked
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17107" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">23、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Cohesion
+                                                – qualitative ___________ of consistency of functions within a single
+                                                class
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17108" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">24、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">The Data
+                                                mining system allows new types of ___________ to be mined by adding new
+                                                integrator objects.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17109" value=""></div>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">25、
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;">Peer to
+                                                peer (p2p) systems are decentralised systems where computations may be
+                                                carried out by any ___________ in the network.
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-3 col-sm-3" style="text-align:right;padding:2px;">回答:
+                                            </div>
+                                            <div class="col-xs-9 col-sm-9" style="text-align:left;padding:2px;"><input
+                                                    type="text" style="width:200px;height:35px;"
+                                                    name="shujuduixiangKey17110" value=""></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="row" style="padding: 10px;">
+                                    <div class="col-xs-6 col-sm-6">
+                                        <a id="baocunButton2" href="javascript:void(0);" onclick="baocunShuju2();"
+                                           class="list-group-item" style="text-align:center;"><span
+                                                class="glyphicon glyphicon-save">保存</span></a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6">
+                                        <a id="tijiaoButton2" href="javascript:void(0);" onclick="tijiaoShuju2();"
+                                           class="list-group-item" style="text-align:center;"><span
+                                                class="glyphicon glyphicon-ok">提交</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="xiajicaozuoJsDiv1" style="margin:0px;padding:0px;">
+
+                </div>
+            </div>
+
+        </div>
+        <div id="xiajicaozuoJsDiv" style="margin:0px;padding:0px;">
+
+        </div>
+    </div>
+</main>
+<footer>
+    <p style="margin:5px;">高校教学平台</p>
+    <p style="margin:5px;">本服务由李老师提供，QQ:291181656</p>
+</footer>
+
+<div class="layui-layer-move"></div>
+</body>
+</html>
