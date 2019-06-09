@@ -6,7 +6,7 @@
          Remove this if you use the .htaccess -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>WebSocket cn.lancedai.learn.netty.ChatServer</title>
+    <title>WebSocket ChatServer</title>
     <style type="text/css">
         #ui * {
             width: 100%;
@@ -19,39 +19,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript">
         function log(msg) {
-            var log = $('#log')
+            var log = $('#log');
             log.append(msg + " \n").scrollTop(log[0].scrollHeight - log.height());
         }
+
         $(function () {
-            $('#url').val((location.protocol.indexOf('https') == -1 ? 'ws://' : 'wss://') + location.host + '/ws')
+            $('#url').val((location.protocol.indexOf('https') === -1 ? 'ws://' : 'wss://') + location.host + '/ws');
 
             if (!WebSocket) {
                 $('#not-supported').show()
             } else {
-                var ws = null
+                var ws = null;
                 $('#connect').click(function () {
-                    if (ws == null || ws.readyState != 1) {
-                        ws = new WebSocket($('#url').val())
+                    if (ws == null || ws.readyState !== 1) {
+                        ws = new WebSocket($('#url').val());
 
                         ws.onerror = function (e) {
                             log('Error : ' + e.message)
-                        }
+                        };
 
                         ws.onopen = function () {
                             log('connected')
-                        }
+                        };
 
                         ws.onclose = function () {
                             log('disconnected')
-                        }
+                        };
 
                         ws.onmessage = function (d) {
                             log('Response : ' + d.data)
-                        }
+                        };
 
                         $('#send').click(function () {
-                            var msg = $('#msg').val()
-                            $('#msg').val('')
+                            var msg = $('#msg').val();
+                            $('#msg').val('');
                             if (ws.send(msg)) {
                                 log('Message sent')
                             } else {
@@ -60,7 +61,7 @@
                         })
 
                     } else {
-                        log('closing connection')
+                        log('closing connection');
                         ws.close()
                     }
                 })

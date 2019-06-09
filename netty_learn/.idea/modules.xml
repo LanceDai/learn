@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Netty_learn.iml" filepath="$PROJECT_DIR$/.idea/Netty_learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty_webSocket_example/netty_webSocket_example.iml" filepath="$PROJECT_DIR$/netty_webSocket_example/netty_webSocket_example.iml" />
     </modules>
   </component>
 </project>

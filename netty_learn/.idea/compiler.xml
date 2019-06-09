@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Netty_learn" />
+        <module name="netty_webSocket_example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Netty_learn" target="8" />
+      <module name="netty_webSocket_example" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

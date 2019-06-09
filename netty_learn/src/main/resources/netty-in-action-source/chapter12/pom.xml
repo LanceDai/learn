@@ -23,9 +23,9 @@
 
     <profiles>
         <profile>
-            <id>ChatServer</id>
+            <id>cn.lancedai.learn.netty.ChatServer</id>
             <properties>
-                <mainClass>nia.chapter12.ChatServer</mainClass>
+                <mainClass>nia.chapter12.cn.lancedai.learn.netty.ChatServer</mainClass>
                 <port>8888</port>
             </properties>
             <build>
@@ -48,9 +48,9 @@
             </build>
         </profile>
         <profile>
-            <id>SecureChatServer</id>
+            <id>cn.lancedai.learn.netty.SecureChatServer</id>
             <properties>
-                <mainClass>nia.chapter12.SecureChatServer</mainClass>
+                <mainClass>nia.chapter12.cn.lancedai.learn.netty.SecureChatServer</mainClass>
                 <port>8888</port>
             </properties>
             <build>

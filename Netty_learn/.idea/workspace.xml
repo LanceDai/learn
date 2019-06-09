@@ -2,22 +2,147 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af29607-b5dc-498e-9f85-e4d9c9a00636" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FileGetApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/EmbeddedChannelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FixedLengthFrameDecoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Netty_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Netty_learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/netty_webSocket_example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/HttpRequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/ChannelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/ChannelExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/src/main/java/nia/chapter1/BlockingIoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/src/main/java/nia/chapter1/ConnectExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/src/main/java/nia/chapter1/ConnectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/src/main/java/nia/chapter1/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/ByteToCharDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/CharToByteEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/CombinedByteCharCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/IntegerToStringDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/IntegerToStringEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/SafeByteToMessageDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/ShortToByteEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/ToIntegerDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/ToIntegerDecoder2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/WebSocketConvertHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/ChunkedWriteHandlerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/CmdHandlerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/FileRegionWriteHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/HttpAggregatorInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/HttpCompressionInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/HttpPipelineInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/HttpsCodecInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/IdleStateHandlerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/LengthBasedInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/LineBasedHandlerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/MarshallingInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/ProtoBufInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/SslChannelInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/WebSocketServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/ChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/ChatServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/HttpRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/SecureChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/SecureChatServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/TextWebSocketFrameHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/resources/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventBroadcaster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/src/main/java/nia/chapter2/echoclient/EchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/src/main/java/nia/chapter2/echoclient/EchoClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/src/main/java/nia/chapter2/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/src/main/resources/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/src/main/java/nia/chapter2/echoserver/EchoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/src/main/java/nia/chapter2/echoserver/EchoServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/src/main/java/nia/chapter2/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/src/main/resources/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/ChannelOperationExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/NettyNioServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/NettyOioServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/PlainNioServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/PlainOioServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter5/src/main/java/io/netty/channel/DummyChannelHandlerContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter5/src/main/java/nia.chapter5/ByteBufExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter5/src/main/java/nia.chapter5/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/io/netty/channel/DummyChannelHandlerContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/io/netty/channel/DummyChannelPipeline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/ChannelFutures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/DiscardHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/DiscardInboundHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/DiscardOutboundHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/InboundExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/ModifyChannelPipeline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/OutboundExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/SharableHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/SimpleDiscardHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/UnsharableHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/WriteHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/WriteHandlers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter7/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter7/src/main/java/nia/chapter7/EventLoopExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter7/src/main/java/nia/chapter7/ScheduleExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter7/src/main/java/nia/chapter7/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapClientWithOptionsAndAttrs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapDatagramChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapSharingEventLoopGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapWithInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/GracefulShutdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/InvalidBootstrapClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/main/java/nia/chapter9/AbsIntegerEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/main/java/nia/chapter9/FixedLengthFrameDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/main/java/nia/chapter9/FrameChunkDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/main/java/nia/chapter9/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/AbsIntegerEncoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/FixedLengthFrameDecoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/FrameChunkDecoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/utils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/utils/src/main/java/nia/util/BogusKeyStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/utils/src/main/java/nia/util/BogusSslContextFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/utils/src/main/java/nia/util/BogusTrustManagerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/source.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/netty_webSocket_example/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,257 +155,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/example/ChannelExample.java">
+        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/HttpRequestHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="396">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/example/EchoClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/example/EmbeddedChannelExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FixedLengthFrameDecoderTest.java">
+        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+            <state relative-caret-position="216">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="2439" column="12" selection-start-line="2439" selection-start-column="12" selection-end-line="2439" selection-end-column="12" />
+            <state relative-caret-position="121">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FileGetApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/source.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8568">
-              <caret line="238" column="42" selection-start-line="238" selection-start-column="42" selection-end-line="238" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#p#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#3;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#3;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#3;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#3;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#3;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#4;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#4;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#4;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#4;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#4;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#5;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#5;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#5;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#5;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#5;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#6;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#6;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#6;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#6;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#6;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#7;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#7;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#7;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#7;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#7;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#8;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#8;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#8;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#8;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#8;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#9;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#9;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#9;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#9;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#9;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#10;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#10;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#10;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#10;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#10;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#11;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#11;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#11;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#11;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#11;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#12;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#12;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#12;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#12;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#12;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#13;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#13;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#13;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#13;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#13;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#14;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#14;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#14;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#14;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#14;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#15;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#15;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#15;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#15;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#15;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#16;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#16;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#16;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#16;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#16;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#17;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#17;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#17;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#17;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#17;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#18;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#18;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#18;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#18;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#18;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#19;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#19;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#19;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#19;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#19;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#20;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#20;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#20;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#20;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#20;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#21;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#21;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#21;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#21;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#21;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#22;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#22;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#22;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#22;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#22;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#23;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#23;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#23;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#23;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#23;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#24;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#a#24;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#24;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#a#24;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#a#24;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="329">
+              <caret line="66" column="26" selection-start-line="58" selection-start-column="16" selection-end-line="66" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -302,6 +232,8 @@
       <find>closeFu</find>
       <find>list-group-item</find>
       <find>1、 Types of requirement:User requirements and ________________ requirements.</find>
+      <find>Starting Chating</find>
+      <find>Message not sent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -316,7 +248,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/EchoExample.scala" />
         <option value="$PROJECT_DIR$/src/main/java/example/PlainOioServer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter4/src/main/java/nia/chapter4/NettyOioServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/example/EchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/ByteBufExample.java" />
         <option value="$PROJECT_DIR$/src/main/resources/source.html" />
         <option value="$PROJECT_DIR$/软件工程-2.txt" />
@@ -326,6 +257,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/example/EmbeddedChannelExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/FixedLengthFrameDecoderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/EchoServer.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/ChatServer.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/Test.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/HttpRequestHandler.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/pom.xml" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServer.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java" />
       </list>
     </option>
   </component>
@@ -338,6 +279,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -353,15 +295,28 @@
           <item name="Netty_learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty_webSocket_example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty_webSocket_example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty_webSocket_example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="130" />
-    <option name="width" value="1440" />
-    <option name="height" value="785" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -372,6 +327,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,17 +338,25 @@
             <path>
               <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="netty_webSocket_example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="netty_webSocket_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="netty_webSocket_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="netty_webSocket_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -400,14 +364,16 @@
             <path>
               <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="netty_webSocket_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="netty_webSocket_example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -416,75 +382,43 @@
               <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-in-action-source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-in-action-source" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-in-action-source" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-in-action-source" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/netty_webSocket_example/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\JavaWorkSpace\learn\netty_learn\src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\JavaWorkSpace\learn\netty_learn\netty_webSocket_example\src\main\resources" />
+      <recent name="D:\WorkSpace\JavaWorkSpace\learn\netty_learn\netty_webSocket_example\src\main\java" />
       <recent name="D:\WorkSpace\JavaWorkSpace\learn\netty_learn\src\main\java\example" />
       <recent name="D:\WorkSpace\JavaWorkSpace\learn\netty_learn\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\JavaWorkSpace\learn\netty_learn\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -499,13 +433,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FixedLengthFrameDecoderTest.testFrameDecoded">
+  <component name="RunManager" selected="Application.ChatServer">
     <configuration name="ChannelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.ChannelExample" />
       <module name="Netty_learn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lancedai.learn.netty.ChatServer" />
+      <module name="netty_webSocket_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lancedai.learn.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -533,13 +480,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NettyServerDemo" />
-      <module name="Netty_learn" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FixedLengthFrameDecoderTest.testFrameDecoded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Netty_learn" />
       <option name="PACKAGE_NAME" value="" />
@@ -552,11 +492,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatServer" />
         <item itemvalue="JUnit.FixedLengthFrameDecoderTest.testFrameDecoded" />
         <item itemvalue="Application.FileGetApp" />
         <item itemvalue="Application.ChannelExample" />
         <item itemvalue="Application.EchoServerApp" />
-        <item itemvalue="Application.NettyServerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +516,8 @@
       <workItem from="1559569111708" duration="3715000" />
       <workItem from="1559907756421" duration="6383000" />
       <workItem from="1559992623889" duration="871000" />
-      <workItem from="1559996914769" duration="3091000" />
+      <workItem from="1559996914769" duration="3396000" />
+      <workItem from="1560077587877" duration="8618000" />
     </task>
     <servers />
   </component>
@@ -586,13 +527,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26547000" />
+    <option name="totallyTimeSpent" value="35470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.47717842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -600,14 +541,14 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31843576" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31843576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36871508" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37288135" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3282123" />
@@ -618,7 +559,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.2707775" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Translate" order="6" />
       <window_info anchor="right" id="Palette" order="7" />
@@ -662,85 +603,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/DefaultPromise.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelPromise.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyClientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/utils/src/main/java/nia/util/BogusKeyStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyServerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1123#1681#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/util/CharsetUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/nio/cs/FastCharsetProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/spi/CharsetProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="474" column="44" selection-start-line="474" selection-start-column="44" selection-end-line="474" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/CharsetUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="214" column="15" selection-start-line="214" selection-start-column="15" selection-end-line="214" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
@@ -752,20 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter2/Client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -874,13 +722,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/软件工程-2.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/EchoServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/ByteBufAllocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="157">
+          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/Unpooled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3519#3520#0" expanded="true" />
+            <element signature="e#3560#3561#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/FixedLengthFrameDecoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="74" column="5" selection-start-line="46" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -891,6 +754,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/EmbeddedChannelExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86292">
+          <caret line="2439" column="12" selection-start-line="2439" selection-start-column="12" selection-end-line="2439" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1080,72 +977,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="2439" column="12" selection-start-line="2439" selection-start-column="12" selection-end-line="2439" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/ByteBufAllocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/Unpooled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
-          <folding>
-            <element signature="e#3519#3520#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/FixedLengthFrameDecoderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="74" column="5" selection-start-line="46" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/EmbeddedChannelExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FixedLengthFrameDecoderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        <state relative-caret-position="468">
+          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1382#1659#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="74" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/http/HttpMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/http/HttpHeaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="508" column="38" selection-start-line="508" selection-start-column="30" selection-end-line="508" selection-end-column="38" />
+          <folding>
+            <element signature="e#16401#16402#0" expanded="true" />
+            <element signature="e#16453#16454#0" expanded="true" />
+            <element signature="e#36161#36162#0" expanded="true" />
+            <element signature="e#36223#36224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/http/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="66" column="26" selection-start-line="58" selection-start-column="16" selection-end-line="66" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/ssl/SslContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="131" column="55" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter2/Client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="16799" column="4" selection-start-line="16799" selection-start-column="4" selection-end-line="16799" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/HttpRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
         </state>
       </provider>
     </entry>
