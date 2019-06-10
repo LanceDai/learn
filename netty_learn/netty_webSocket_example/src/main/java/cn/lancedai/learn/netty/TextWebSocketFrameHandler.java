@@ -5,12 +5,14 @@ import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author LanceDai
  * @date 2019/6/9 21:17
  * @description *
  */
+@Slf4j
 public class TextWebSocketFrameHandler
         extends SimpleChannelInboundHandler<TextWebSocketFrame> {
     private final ChannelGroup group;
@@ -20,10 +22,10 @@ public class TextWebSocketFrameHandler
     }
 
     @Override
-    public void userEventTriggered(ChannelHandlerContext ctx,
-                                   Object evt) throws Exception {
+    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
         if (evt == WebSocketServerProtocolHandler
                 .ServerHandshakeStateEvent.HANDSHAKE_COMPLETE) {
+            System.out.println("userEventTrigger");
             System.out.println("connect -> " + ctx.channel());
             //协议升级后移除处理http请求的Handler
             ctx.pipeline().remove(HttpRequestHandler.class);
@@ -37,11 +39,9 @@ public class TextWebSocketFrameHandler
 
 
     @Override
-    public void channelRead0(ChannelHandlerContext ctx,
-                             TextWebSocketFrame msg) throws Exception {
+    public void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrame msg) throws Exception {
         System.out.println("msg = " + msg.text());
         group.write(msg.retain());
-        group.write("sb");
         group.flush();
     }
 }

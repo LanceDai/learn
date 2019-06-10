@@ -2,144 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af29607-b5dc-498e-9f85-e4d9c9a00636" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/netty_webSocket_example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/HttpRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/src/main/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/src/main/java/nia/chapter1/BlockingIoExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/src/main/java/nia/chapter1/ConnectExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/src/main/java/nia/chapter1/ConnectHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter1/src/main/java/nia/chapter1/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/ByteToCharDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/CharToByteEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/CombinedByteCharCodec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/IntegerToStringDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/IntegerToStringEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/SafeByteToMessageDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/ShortToByteEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/ToIntegerDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/ToIntegerDecoder2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/WebSocketConvertHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter10/src/main/java/nia/chapter10/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/ChunkedWriteHandlerInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/CmdHandlerInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/FileRegionWriteHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/HttpAggregatorInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/HttpCompressionInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/HttpPipelineInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/HttpsCodecInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/IdleStateHandlerInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/LengthBasedInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/LineBasedHandlerInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/MarshallingInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/ProtoBufInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/SslChannelInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/WebSocketServerInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter11/src/main/java/nia/chapter11/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/ChatServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/ChatServerInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/HttpRequestHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/SecureChatServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/SecureChatServerInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/TextWebSocketFrameHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/java/nia/chapter12/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter12/src/main/resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventBroadcaster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/LogEventMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter13/src/main/java/nia/chapter13/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/src/main/java/nia/chapter2/echoclient/EchoClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/src/main/java/nia/chapter2/echoclient/EchoClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/src/main/java/nia/chapter2/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Client/src/main/resources/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/src/main/java/nia/chapter2/echoserver/EchoServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/src/main/java/nia/chapter2/echoserver/EchoServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/src/main/java/nia/chapter2/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/Server/src/main/resources/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/ChannelOperationExamples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/NettyNioServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/NettyOioServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/PlainNioServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/PlainOioServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter4/src/main/java/nia/chapter4/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter5/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter5/src/main/java/io/netty/channel/DummyChannelHandlerContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter5/src/main/java/nia.chapter5/ByteBufExamples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter5/src/main/java/nia.chapter5/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/io/netty/channel/DummyChannelHandlerContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/io/netty/channel/DummyChannelPipeline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/ChannelFutures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/DiscardHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/DiscardInboundHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/DiscardOutboundHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/InboundExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/ModifyChannelPipeline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/OutboundExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/SharableHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/SimpleDiscardHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/UnsharableHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/WriteHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/WriteHandlers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter6/src/main/java/nia/chapter6/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter7/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter7/src/main/java/nia/chapter7/EventLoopExamples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter7/src/main/java/nia/chapter7/ScheduleExamples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter7/src/main/java/nia/chapter7/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapClientWithOptionsAndAttrs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapDatagramChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapSharingEventLoopGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/BootstrapWithInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/GracefulShutdown.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/InvalidBootstrapClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter8/src/main/java/nia/chapter8/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/main/java/nia/chapter9/AbsIntegerEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/main/java/nia/chapter9/FixedLengthFrameDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/main/java/nia/chapter9/FrameChunkDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/main/java/nia/chapter9/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/AbsIntegerEncoderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/FixedLengthFrameDecoderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/FrameChunkDecoderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/chapter9/src/test/java/nia/test/chapter9/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/utils/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/utils/src/main/java/nia/util/BogusKeyStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/utils/src/main/java/nia/util/BogusSslContextFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/netty-in-action-source/utils/src/main/java/nia/util/BogusTrustManagerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_webSocket_example/netty_webSocket_example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty_webSocket_example/netty_webSocket_example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_webSocket_example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty_webSocket_example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_webSocket_example/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/netty_webSocket_example/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty_webSocket_example/target/" />
@@ -157,21 +29,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/HttpRequestHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-              <folding>
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java">
+        <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="592">
+              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -179,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty_webSocket_example/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="1116">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -188,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+            <state relative-caret-position="2232">
+              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
               </folding>
@@ -200,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="432">
               <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
@@ -209,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="1260">
               <caret line="66" column="26" selection-start-line="58" selection-start-column="16" selection-end-line="66" selection-end-column="26" />
             </state>
           </provider>
@@ -263,10 +149,11 @@
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/HttpRequestHandler.java" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java" />
-        <option value="$PROJECT_DIR$/netty_webSocket_example/pom.xml" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServer.java" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/pom.xml" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java" />
       </list>
     </option>
   </component>
@@ -314,8 +201,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -326,8 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -405,7 +292,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -517,7 +404,8 @@
       <workItem from="1559907756421" duration="6383000" />
       <workItem from="1559992623889" duration="871000" />
       <workItem from="1559996914769" duration="3396000" />
-      <workItem from="1560077587877" duration="8618000" />
+      <workItem from="1560077587877" duration="10214000" />
+      <workItem from="1560167016240" duration="39000" />
     </task>
     <servers />
   </component>
@@ -527,13 +415,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35470000" />
+    <option name="totallyTimeSpent" value="37105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.47717842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28820375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -999,22 +886,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/netty-in-action-source/chapter12/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1056,24 +928,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="66" column="26" selection-start-line="58" selection-start-column="16" selection-end-line="66" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/ssl/SslContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="131" column="55" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1088,20 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1121,29 +965,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/HttpRequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        <state relative-caret-position="2232">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java">
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="432">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="66" column="26" selection-start-line="58" selection-start-column="16" selection-end-line="66" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
         </state>
       </provider>
     </entry>

@@ -21,6 +21,16 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.33.Final</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.26</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -42,20 +52,39 @@
                     <encoding>utf-8</encoding>
                 </configuration>
             </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.codehaus.mojo</groupId>-->
+<!--                <artifactId>exec-maven-plugin</artifactId>-->
+<!--                <version>1.2.1</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>run-chat-server</id>-->
+<!--                        <goals>-->
+<!--                            <goal>java</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--                <configuration>-->
+<!--                    <mainClass>cn.lancedai.learn.netty.ChatServer</mainClass>-->
+<!--                    <arguments>-->
+<!--                        <argument>${port}</argument>-->
+<!--                    </arguments>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.2.1</version>
                 <executions>
                     <execution>
-                        <id>run-chat-server</id>
+                        <id>run-ssl-chat-server</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>cn.lancedai.learn.netty.ChatServer</mainClass>
+                    <mainClass>cn.lancedai.learn.netty.SecureChatServer</mainClass>
                     <arguments>
                         <argument>${port}</argument>
                     </arguments>
