@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netty_webSocket_example/netty_webSocket_example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty_webSocket_example/netty_webSocket_example.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netty_webSocket_example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty_webSocket_example/pom.xml" afterDir="false" />
@@ -53,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="592">
@@ -62,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty_webSocket_example/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="195">
+              <caret line="86" column="71" selection-start-line="86" selection-start-column="71" selection-end-line="86" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -151,9 +152,9 @@
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServer.java" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/ChatServer.java" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html" />
-        <option value="$PROJECT_DIR$/netty_webSocket_example/pom.xml" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/TextWebSocketFrameHandler.java" />
         <option value="$PROJECT_DIR$/netty_webSocket_example/src/main/java/cn/lancedai/learn/netty/SecureChatServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty_webSocket_example/pom.xml" />
       </list>
     </option>
   </component>
@@ -405,7 +406,7 @@
       <workItem from="1559992623889" duration="871000" />
       <workItem from="1559996914769" duration="3396000" />
       <workItem from="1560077587877" duration="10214000" />
-      <workItem from="1560167016240" duration="39000" />
+      <workItem from="1560167016240" duration="686000" />
     </task>
     <servers />
   </component>
@@ -415,7 +416,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37105000" />
+    <option name="totallyTimeSpent" value="37752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -984,13 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty_webSocket_example/src/main/resources/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2232">
@@ -1019,6 +1013,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty_webSocket_example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="86" column="71" selection-start-line="86" selection-start-column="71" selection-end-line="86" selection-end-column="71" />
         </state>
       </provider>
     </entry>
