@@ -20,7 +20,7 @@ import java.util.stream.Stream;
  */
 public class FileGetApp {
     public static void main(String[] args) throws IOException {
-        String fileName = "软件工程-2.txt";
+        String fileName = "软件工程-3.doc";
         File file = new File(fileName);
         if (!file.exists()) {
             file.createNewFile();

@@ -1,0 +1,20 @@
+1、Data flow diagrams (DFDs) are _________ into additional diagrams to provide multiple levels of detail
+2、Differing views of DFDs are called _________ of abstraction
+3、System scope of the Context Diagrams is represented by a single _________, external agents, and all data flows into and out of the system
+4、The DFD Fragments are created for each use case in the _________ table.
+5、The DFD Fragments show only data _________ required in the use case
+6、Most DFD fragments can be further described using structured _________
+7、All data that flows into a process must flow _________ of the process and are used to generate data that flows out of the process
+8、Data stores need to be described in terms of data _________.
+9、Structured English is well-suited for lengthy sequential processes or simple control _________ (single loop or if-then-else).
+10、Data dictionary:repository for definitions of data _________, data stores, and data elements.
+11、Detailed process decomposition DFDs used when internal process _________ is great.
+12、Versioning is mechanism to manage systems _________.
+13、Alpha version – _________ testing version.
+14、Beta version – _________ testing version.
+15、Testing levels are related to specific SDLC _________.
+16、Errors of Integration Testing can include: Interface incompatibility,Incorrect parameter values,Run-time _________ and Unexpected state interactions.
+17、Complete _________ testing also performed before acceptance testing.
+18、Usability test is a test to determine whether a module, method, class, subsystem, or system meets _________ requirements.
+19、_________ test is system test performed to determine whether system meets user requirements.
+20、The Testing is process of examining a product to determine if any _________ exist.
