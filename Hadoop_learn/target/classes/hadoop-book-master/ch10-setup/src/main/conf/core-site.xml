@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!-- core-site.xml -->
-<configuration>
-  <property>
-    <name>fs.defaultFS</name>
-    <value>hdfs://namenode/</value>
-  </property>
-</configuration>

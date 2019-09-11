@@ -1,6 +1,0 @@
-hello scala hello scala hello scala hello spark
-goodbye spark
-hello spark
-hello mllib Spark
-spark
-goodbye spark
