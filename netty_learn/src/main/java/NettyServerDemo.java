@@ -8,6 +8,8 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.util.CharsetUtil;
 
+import java.net.SocketAddress;
+
 public class NettyServerDemo {
     private static final String IP = "127.0.0.1";
     private static final int PORT = 8888;
@@ -32,7 +34,6 @@ public class NettyServerDemo {
                 pipeline.addLast(new StringEncoder(CharsetUtil.UTF_8));
                 pipeline.addLast(new TcpServerHandler());
             }
-
         });
         ChannelFuture f = bootstrap.bind(IP, PORT).sync();
         f.channel().closeFuture().sync();
@@ -63,6 +64,8 @@ class TcpServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        SocketAddress address = ctx.channel().remoteAddress();
+        System.out.println("server address = " + address);
     }
 
     @Override
