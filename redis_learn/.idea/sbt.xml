@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="A:\sbt\bin\sbt-launch.jar" />
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="E:\jdk\jdk-8\jre" />
+    <option name="maximumHeapSize" value="512" />
+    <option name="vmParameters" value="-Dsbt.override.build.repos=true -Dsbt.repository.config=C:\Users\60384\.sbt\repositories" />
+  </component>
+</project>
