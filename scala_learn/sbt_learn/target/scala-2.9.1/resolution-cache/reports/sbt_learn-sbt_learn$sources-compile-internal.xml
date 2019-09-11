@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="sbt_learn"
+		module="sbt_learn$sources"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190507113418"/>
+	<dependencies>
+		<module organisation="sound-tests" name="sound-tests_2.9.1">
+			<revision name="1.0" status="integration" pubdate="20190507113408" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="8">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.9.1" status="release" pubdate="20180726223026" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2742" time="0" location="/home/lance/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1710518" time="0" location="/home/lance/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.9.1-sources.jar">
+						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.1" status="release" pubdate="20180726223020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2448" time="0" location="/home/lance/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1131083" time="0" location="/home/lance/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.9.1-sources.jar">
+						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="compiler-bridge_2.10">
+			<revision name="0.1.0-M1" status="release" pubdate="20190507113113" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/incrementalcompiler" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3431" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/compiler-bridge_2.10/ivy-0.1.0-M1.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-bridge_2.10/0.1.0-M1/compiler-bridge_2.10-0.1.0-M1.pom"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="0.1.0-M1" rev-constraint-default="0.1.0-M1" rev-constraint-dynamic="0.1.0-M1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="compiler-bridge_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28230" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/compiler-bridge_2.10/srcs/compiler-bridge_2.10-0.1.0-M1-sources.jar">
+						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-bridge_2.10/0.1.0-M1/compiler-bridge_2.10-0.1.0-M1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="util-logging_2.10">
+			<revision name="0.1.0-M6" status="release" pubdate="20190507113131" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3067" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/util-logging_2.10/ivy-0.1.0-M6.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.10/0.1.0-M6/util-logging_2.10-0.1.0-M6.pom"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="0.1.0-M6" rev-constraint-default="0.1.0-M6" rev-constraint-dynamic="0.1.0-M6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="util-logging_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15422" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/util-logging_2.10/srcs/util-logging_2.10-0.1.0-M6-sources.jar">
+						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.10/0.1.0-M6/util-logging_2.10-0.1.0-M6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="2.11" status="release" pubdate="20180724114132" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3899" time="0" location="/home/lance/.ivy2/cache/jline/jline/ivy-2.11.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.11/jline-2.11.pom"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="84971" time="0" location="/home/lance/.ivy2/cache/jline/jline/srcs/jline-2.11-sources.jar">
+						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.11/jline-2.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="io_2.10">
+			<revision name="1.0.0-M3" status="release" pubdate="20190507113127" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3006" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/io_2.10/ivy-1.0.0-M3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.10/1.0.0-M3/io_2.10-1.0.0-M3.pom"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="1.0.0-M3" rev-constraint-default="1.0.0-M3" rev-constraint-dynamic="1.0.0-M3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="io_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24614" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/io_2.10/srcs/io_2.10-1.0.0-M3-sources.jar">
+						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.10/1.0.0-M3/io_2.10-1.0.0-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="compiler-interface">
+			<revision name="0.1.0-M1" status="release" pubdate="20190507113118" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/incrementalcompiler" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2690" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-0.1.0-M1.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/0.1.0-M1/compiler-interface-0.1.0-M1.pom"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="0.1.0-M1" rev-constraint-default="0.1.0-M1" rev-constraint-dynamic="0.1.0-M1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13234" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/compiler-interface/srcs/compiler-interface-0.1.0-M1-sources.jar">
+						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/0.1.0-M1/compiler-interface-0.1.0-M1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="util-interface">
+			<revision name="0.1.0-M6" status="release" pubdate="20190507113123" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/util" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2475" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/util-interface/ivy-0.1.0-M6.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/0.1.0-M6/util-interface-0.1.0-M6.pom"/>
+				<caller organisation="sbt_learn" name="sbt_learn$sources" conf="compile-internal, compile, provided, optional" rev="0.1.0-M6" rev-constraint-default="0.1.0-M6" rev-constraint-dynamic="0.1.0-M6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="util-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2247" time="0" location="/home/lance/.ivy2/cache/org.scala-sbt/util-interface/srcs/util-interface-0.1.0-M6-sources.jar">
+						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/0.1.0-M6/util-interface-0.1.0-M6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

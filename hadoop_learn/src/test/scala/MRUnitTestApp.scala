@@ -1,0 +1,7 @@
+object MRUnitTestApp {
+
+}
+
+object MaxTemperatureMapperTest{
+
+}
