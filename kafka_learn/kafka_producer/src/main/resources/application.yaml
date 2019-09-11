@@ -7,7 +7,7 @@ spring:
     spark-topic: spark-streaming-kafka
 
 
-    bootstrap-servers: 192.168.136.21:9092,192.168.136.22:9092,192.168.136.23:9092
+    bootstrap-servers: 49.234.25.252:32797,49.234.25.252:32798
     producer:
       retries: 0
       #每次批量发送消息的数量

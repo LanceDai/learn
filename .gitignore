@@ -77,33 +77,29 @@ fabric.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-将删除 .idea/httpRequests/
-将删除 .idea/vcs.xml
-将删除 .idea/workspace.xml
-将删除 Design_pattern/Decorator_pattern/src/test/
-将删除 Design_pattern/Decorator_pattern/target/
-将删除 Design_pattern/Observer_pattern/src/main/resources/
-将删除 Design_pattern/Observer_pattern/src/test/
-将删除 Design_pattern/Observer_pattern/target/
-将删除 Design_pattern/Strategy_pattern/src/main/resources/
-将删除 Design_pattern/Strategy_pattern/src/test/
-将删除 Design_pattern/Strategy_pattern/target/
-将删除 Java_learn/Annotation_learn/src/main/resources/
-将删除 Java_learn/Annotation_learn/src/test/
-将删除 Java_learn/Annotation_learn/target/
-将删除 Java_learn/GenericProgramming_learn/src/main/resources/
-将删除 Java_learn/GenericProgramming_learn/src/test/
-将删除 Java_learn/GenericProgramming_learn/target/
-将删除 Java_learn/Reflection_learn/src/main/resources/
-将删除 Java_learn/Reflection_learn/src/test/
-将删除 Java_learn/src/
-将删除 elasticsearch_learn/src/
-将删除 myBatis_learn/src/
-将删除 redis_learn/src/main/java/com/learn/redisDemo/component/
-将删除 redis_learn/src/test/
-将删除 redis_learn/target/
-将删除 src/main/resources/
-将删除 src/test/
-将删除 target/
-将删除 webSocket_learn/src/test/
-将删除 webSocket_learn/target/
+./.idea
+./**/.idea
+./**/*.iml
+./**/.settings
+./**/.project
+#./design_pattern/.idea
+#./design_pattern/*.iml
+#./dubbo_learn/.idea
+#./dubbo_learn/*.iml
+#./elasticsearch_learn/.idea
+#./getOffer/.idea
+#./hadoop_learn/.idea
+#./java_learn/.idea
+#./kafka_learn/.idea
+#./myBatis_learn/.idea
+#./netty_learn/.idea
+#./redis_learn/.idea
+#./scala_learn/.idea
+#./Socket_learn/.idea
+#./Spark_learn/.idea
+#./spring_learn/Simple_Spring_learn/.idea
+#./spring_learn/SpringMVC_learn/.idea
+#./Vert.x_learn/.idea
+#./webSocket_learn/.settings
+#./webSocket_learn/.project
+

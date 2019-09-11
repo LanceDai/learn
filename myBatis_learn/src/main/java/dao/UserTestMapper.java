@@ -2,6 +2,9 @@ package dao;
 
 import model.UserTest;
 
+import java.util.List;
+import java.util.Map;
+
 public interface UserTestMapper {
     int deleteByPrimaryKey(Integer userId);
 
@@ -14,4 +17,10 @@ public interface UserTestMapper {
     int updateByPrimaryKeySelective(UserTest record);
 
     int updateByPrimaryKey(UserTest record);
+
+    List<UserTest> selectAll();
+
+    List<Map> selectAllWithMap();
+
+    void deleteAll();
 }

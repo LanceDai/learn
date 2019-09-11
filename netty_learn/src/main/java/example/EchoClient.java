@@ -52,7 +52,7 @@ public class EchoClient {
 
     public static void main(String[] args) throws InterruptedException {
         if (args.length != 2) {
-            System.err.println(
+            System.err.println(21
                     "Usage: " + EchoClient.class.getSimpleName() + " <host> <port> "
             );
             return;

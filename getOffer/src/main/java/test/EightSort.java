@@ -62,7 +62,7 @@ public class EightSort {
      * 堆排序
      */
     private static <T extends Comparable<? super T>> T[] heapSort(T[] data, int start, int end) {
-        //建堆
+        //建堆 从第一个非叶节点开始
         for (int i = (data.length >>> 1) - 1; i >= 0; --i) {
             shiftDown(data, data.length, i, data[i]);
         }
@@ -164,9 +164,6 @@ public class EightSort {
             cursor++;
         }
         System.arraycopy(tempData, start, data, start, end - start + 1);
-//        for (cursor = start; cursor <= end; ++cursor) {
-//            data[cursor] = tempData[cursor];
-//        }
         return data;
     }
 

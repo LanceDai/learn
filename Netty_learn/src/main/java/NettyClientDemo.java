@@ -7,17 +7,21 @@ import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.LengthFieldPrepender;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
+import io.netty.handler.logging.LoggingHandler;
 import io.netty.util.CharsetUtil;
 
+import java.net.SocketAddress;
 import java.util.Scanner;
 
 public class NettyClientDemo implements Runnable {
+    @Override
     public void run() {
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             Bootstrap b = new Bootstrap();
             b.group(group);
             b.channel(NioSocketChannel.class).option(ChannelOption.TCP_NODELAY, true);
+            b.handler(new LoggingHandler());
             b.handler(new ChannelInitializer<SocketChannel>() {
                 @Override
                 protected void initChannel(SocketChannel ch) throws Exception {
@@ -56,5 +60,11 @@ class HelloClient extends ChannelInboundHandlerAdapter {
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         System.out.println("client exception is general");
+    }
+
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        SocketAddress address = ctx.channel().remoteAddress();
+        System.out.println("client address = " + address);
     }
 }
